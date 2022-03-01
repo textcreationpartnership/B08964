@@ -1,0 +1,817 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A serious exhortation to the necessary duties of [brace] family and personal instruction made (formerly) to the inhabitants of the parish of Tredington in the county of Wercester, and now upon request published for their use / by William Durham.</title>
+            <author>Durham, William, d. 1686.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1659</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 119 KB of XML-encoded text transcribed from 54 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B08964</idno>
+            <idno type="STC">Wing D2832A</idno>
+            <idno type="STC">ESTC R229159</idno>
+            <idno type="EEBO-CITATION">61296964</idno>
+            <idno type="OCLC">ocm 61296964</idno>
+            <idno type="VID">180530</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B08964)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 180530)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2832:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A serious exhortation to the necessary duties of [brace] family and personal instruction made (formerly) to the inhabitants of the parish of Tredington in the county of Wercester, and now upon request published for their use / by William Durham.</title>
+                  <author>Durham, William, d. 1686.</author>
+               </titleStmt>
+               <extent>[8], 80, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Tho. Newcomb,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1659.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata at 1 p. at end.</note>
+                  <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life --  England --  Early works to 1800.</term>
+               <term>Family life --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-01</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2014-01</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:180530:1" rendition="simple:additions"/>
+            <pb facs="tcp:180530:1" rendition="simple:additions"/>
+            <pb facs="tcp:180530:2"/>
+            <pb facs="tcp:180530:2"/>
+            <pb facs="tcp:180530:3"/>
+            <pb facs="tcp:180530:3"/>
+            <p>A SERIOUS EXHORTATION TO THE <hi>Neceſſary Duties</hi> of Family and Perſonal Inſtruction.</p>
+            <p>Made (formerly) to the Inhabitants of the Pariſh of <hi>Tredington</hi> in the Coun<g ref="char:EOLhyphen"/>ty of <hi>Worcester,</hi> and now upon requeſt, publiſhed for their uſe.</p>
+            <p>By <hi>William Durham</hi> B. D. Mini<g ref="char:EOLhyphen"/>ſter of the Goſpel there.</p>
+            <q>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</q>
+            <q>Train up a Child in the way that he ſhould go; and when he is old he will. not depart from it. <bibl>
+                  <hi>Prov. 22.6.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>London,</hi> Printed by <hi>Tho. Newcomb,</hi> dwelling in <hi>Thames-ſtreet</hi> over againſt <hi>Baynards Castle.</hi> 1659.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:180530:4"/>
+            <pb facs="tcp:180530:4"/>
+            <head>TO The truly Religious, and my much honoured, the Lady <hi>Vachel</hi> of <hi>Coly</hi> neer <hi>Reding.</hi>
+            </head>
+            <opener>
+               <salute>Madam!</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg>T is no mean priviledge to be born of godly Parents, and ſuch who are ſtedfaſt in the faith; for although Grace be no more <hi>(ex traduce)</hi> by tra<g ref="char:EOLhyphen"/>duction from our Anceſtors then our ſouls, but both immediately from God, yet (beſides the benefit of their prayers) their Godly examples, and their Religious care in the education of their children, have (by Gods bleſ<g ref="char:EOLhyphen"/>ſing) a wonderful influence in moul<g ref="char:EOLhyphen"/>ding their hearts towards Godlineſs. The faireſt Gem in <hi>Solomons</hi> Crown
+<pb facs="tcp:180530:5"/>was the ſpecial care which his Parents had to teach him to know God and his Law. It was <hi>Timothies</hi> great ad<g ref="char:EOLhyphen"/>vantage that his Mother and Grand<g ref="char:EOLhyphen"/>mother were ſo famous for Religion. In this great Priviledge few perſons of your rank are greater ſharers then your ſelf; <note place="margin">Sir <hi>Fran<g ref="char:EOLhyphen"/>cis Knollys</hi> Knight of the Garter, Treaſu<g ref="char:EOLhyphen"/>rer of the houſ<g ref="char:EOLhyphen"/>hold and Councel<g ref="char:EOLhyphen"/>lor to Q. <hi>Eliz.</hi>
+               </note> Your Grandfather, an Exile (with his Family) for Religion in thoſe bloody days of Queen <hi>Mary,</hi> and an eminent Inſtrument in that happy Reformation in the time of Queen <hi>Elizabeth,</hi> whoſe name is yet eminent in Forain parts, and no leſs precious at home for his many good ſervices done to the Church of God. <note place="margin">Sir <hi>Fran<g ref="char:EOLhyphen"/>cis Knol<g ref="char:EOLhyphen"/>lys.</hi>
+               </note> After him your late dear Fa<g ref="char:EOLhyphen"/>ther, of whom I may ſay as the <note n="*" place="margin">
+                  <hi>Epistol. lib.</hi> 2.</note> Learned <hi>Zanchy</hi> ſaith of <hi>William Lantgrave</hi> of <hi>Heſſen,</hi> that he was <hi>(Optimi parentis, Optimus filius)</hi> the moſt Religious Son of a moſt Re<g ref="char:EOLhyphen"/>ligious Father, who was the greateſt Countenancer of Religion, and che<g ref="char:EOLhyphen"/>riſher of Religious men in thoſe parts
+<pb facs="tcp:180530:5"/>all his time; whoſe pains and purſe were never ſpared ſor their encou<g ref="char:EOLhyphen"/>ragement and defence, even in the worſt of times, as is yet very well re<g ref="char:EOLhyphen"/>membred with thankful hearts by ma<g ref="char:EOLhyphen"/>ny who bleſs his memory. The pious labors of divers eminent Miniſters of Chriſt, <note place="margin">Dr. <hi>Twiſt</hi> Dr <hi>Tho. Taylor.</hi>
+               </note> whom he cheriſhed under his wing, give the world a taſte how much it owes to his memory. How great his care was to inſtruct his children in the Faith, may be ſeen by their car<g ref="char:EOLhyphen"/>riage in the Church of God, when they were grown up to riper years. Witneſs him who whileſt he lived, <note place="margin">Sir <hi>Fran<g ref="char:EOLhyphen"/>cis Knol<g ref="char:EOLhyphen"/>lys</hi> your brother.</note> was <hi>[deliciae humani generis]</hi> for his candor, ſweetneſs, courteſie and love to goodneſs, the delight and love of all that had the happineſs to know him. I heartily deſire that there may be the like Religious care taken for the education of that In<g ref="char:EOLhyphen"/>fant upon whom that Eſtate is deſcen<g ref="char:EOLhyphen"/>ded, that he may tread in the ſteps of his worthy Anceſtors, and inherit
+<pb facs="tcp:180530:6"/>their vertues as well as their poſſeſsi<g ref="char:EOLhyphen"/>ons! Your Ladiſhip might be my next great inſtance, who have ſo well im<g ref="char:EOLhyphen"/>proved thoſe Principles of Religion inſtill'd in your education, that your Piety, Charity, and Religious Govern<g ref="char:EOLhyphen"/>ment of your Family (I may call it in the Apoſtles Language, The Church in your houſe) may be a pattern to Poſte<g ref="char:EOLhyphen"/>rity, which will not readily be taken out. I muſt not take in all that might be ſpoken, but conſider what your La<g ref="char:EOLhyphen"/>diſhip will be willing to hear: Who in this, as in your whole courſe, have propoſed your Saviour for your exam<g ref="char:EOLhyphen"/>ple, who when he had done any great work commanded them not to publiſh it. It is much more delightful to your Ladiſhip to do good, then to hear of it when you have done it. What the benefits and advantages of instruct<g ref="char:EOLhyphen"/>ing Families are, I have endeavored to manifest in this following Exhortati<g ref="char:EOLhyphen"/>on, and being importuned to communi<g ref="char:EOLhyphen"/>cate it to mine own charge, I have taken
+<pb facs="tcp:180530:6"/>the humble confidence to put it under your Ladiſhips name; for which at<g ref="char:EOLhyphen"/>tempt I the rather hope to gain your pardon, becauſe all that is ſaid here, is but a tranſcript of your own practice in your Family. You will finde it plain, (ſo are the people for whom it is mainly intended) but I hope honeſt, and ſutable to the minde of God. So God may have glory, his people commit<g ref="char:EOLhyphen"/>ted to my truſt advantage, and this ſmall testimony of my thankfulneſs for the many real expreſsions of your fa<g ref="char:EOLhyphen"/>vors may finde acceptance at your hands, he hath his ends, who is</p>
+            <closer>
+               <salute>Madam,</salute>
+               <signed>
+                  <hi>Your Ladiſhips much obliged Nephew, and moſt humble ſervant</hi> William Durham.</signed>
+               <dateline>From my ſtudy in <hi>Tredington</hi> 
+                  <date>this 7 of <hi>De<g ref="char:EOLhyphen"/>cember</hi> 1658.</date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:180530:7"/>
+            <pb n="1" facs="tcp:180530:7"/>
+            <opener>
+               <salute>TO My well beloved Friends and Neighbours the Inhabitants of the Pa<g ref="char:EOLhyphen"/>riſh of <hi>Tredington.</hi> Grace and Peace in Jeſus Chriſt.</salute>
+            </opener>
+            <div type="part">
+               <opener>
+                  <salute>BELOVED!</salute>
+               </opener>
+               <p>
+                  <seg rend="decorInit">T</seg>Hat which was the hearts deſire of the Apoſtle, <note place="margin">Rom. 10.1.</note> and prayer to God for Iſrael, is really mine for you, that you may be ſaved. That wiſe God, who in his Providence hath ſet me over you in things pertaining to your ſouls, hath (through Grace) made me in ſome mea<g ref="char:EOLhyphen"/>ſure ſenſible of the weight of mine im<g ref="char:EOLhyphen"/>ployment, and the excellency of thoſe ſouls committed to my truſt. Were your ſouls like thoſe of inferiour creatures,
+<pb n="2" facs="tcp:180530:8"/>only as ſalt to preſerve your bodies from putrefaction, and did they die together with you, it were more excuſable, if you were leſs curious in the cultivating of them: but ſince they are immortal, and muſt live, when theſe houſes of clay are diſſolved, and that nothing is a propor<g ref="char:EOLhyphen"/>tionable price for them but that blood of God, it concerns us highly to take care what will become of them when we go hence, and ſhall be ſeen no more. The great part of a Chriſtians portion lies in reverſion; that which we enjoy here (though full of inward comfort) is no<g ref="char:EOLhyphen"/>thing in compariſon of what we expect. There's an inheritance in Heaven, <note place="margin">1 Pet. 1.4.</note> which is incorruptible, undefiled, &amp;c. whoſe worth the tongue of men and Angels cannot expreſs; for the obtainment of this glorious inheritance I (daily) bow my knees unto the Father of our Lord Jeſus Chriſt on your behalf; and that he would grant you according to the riches of his glory, <note place="margin">Eph. 3.14.</note> to be ſtrength<g ref="char:EOLhyphen"/>ned with might by his Spirit in the in<g ref="char:EOLhyphen"/>ward man, that Chriſt may dwell in your hearts by faith, that you may know the love of Chriſt which paſſeth knowledge; that ye may be fill'd with all the fulneſs
+<pb n="3" facs="tcp:180530:8"/>of God; <note place="margin">Joh. 17.3.</note> and (in a word) that your ſouls may proſper through the know<g ref="char:EOLhyphen"/>ledg of the only true God, and Jeſus Chriſt whom he hath ſent, becauſe this is life eternal. This is the main end and aim, as of all that pains I have other<g ref="char:EOLhyphen"/>wiſe taken among you, ſo of this fol<g ref="char:EOLhyphen"/>lowing exhortation which was former<g ref="char:EOLhyphen"/>ly made to you in publique: That your hearts which ſeemed much warmed thereby to a ready compliance with your duty, may not grow chill and cold a<g ref="char:EOLhyphen"/>gain, I have been induced by the per<g ref="char:EOLhyphen"/>ſwaſion of ſome of your ſelves and o<g ref="char:EOLhyphen"/>thers, to ſuffer this Exhortation to be made publique for your benefit; that every one of you may have ſomething by you that may help to quicken him to the getting the knowledg of the Principles of Religion; which I have the rather inclined to, becauſe (as you know) ſince this was delivered to you, God has ſhaken me by the ſhoulder once and again, <note place="margin">2 Cor. 1.9.</note> and ſhewed me that my bones are not braſs, nor my ſinews iron, ſo far that I even deſpair'd of life, and ſeemed to have the ſentence of death paſſed againſt me. How long God may pleaſe to reprieve me to be further
+<pb n="4" facs="tcp:180530:9"/>ſerviceable to your faith, is known to him alone. I would willingly leave ſomething as a pledge of my tender affections to you in Chriſt Jeſus; that when this tabernacle of my fleſh ſhall be taken down, you may have a faith<g ref="char:EOLhyphen"/>full Remembrancer with you, to minde you of that which is your greateſt con<g ref="char:EOLhyphen"/>cernment. The hearts of the <hi>Galatians</hi> were once ſo inflamed toward the Apo<g ref="char:EOLhyphen"/>ſtle that they would even have pulled out their eyes to have done him good: I ſhall not impoſe any ſuch rigid task upon you, but only deſire that the eyes of your underſtanding may be inlight<g ref="char:EOLhyphen"/>ned, that ye may know God, your ſelves, and your duty. If I had required ſome difficult or coſtly matter at your hand, it would be more excuſable, ſhould you ſcruple my requeſt: but ſince the motion which I have to make is no extraordi<g ref="char:EOLhyphen"/>nary task, and tends ſo directly to the ſaving of your precious ſouls, I cannot but promiſe my ſelf the more ready ac<g ref="char:EOLhyphen"/>ceptance. That which I am to perſwade you to, is the making of your ſelves and families acquainted with God in Chriſt, and that you would make it your buſi<g ref="char:EOLhyphen"/>neſs to ſet up the knowledg of God in
+<pb n="5" facs="tcp:180530:9"/>your reſpective families. There's none of you who would be thought careleſs of the good of your houſhold in things that appertain to this life; how much more ought ye to be ſolicitous for them in things pertaining to a better life? The inſtructing of them in the Principles of Religion is of that abſolute neceſſity that without it there can be no ſalvati<g ref="char:EOLhyphen"/>on. There's no ſalvation but by Chriſt; no benefit by Chriſt without faith; no faith in him without knowledge; no knowledge but by inſtruction. And that I may proceed more diſtinctly and more effectually in this ſo weighty a work, I ſhall 1. Propoſe ſuch Motives as may quicken Parents and Maſters in this duty, <hi>viz.</hi> in inſtructing their chil<g ref="char:EOLhyphen"/>dren and ſervants themſelves as far as they are able, and in cauſing them to come and yield to this work in publique by the Miniſter. 2. I ſhall bring ſome Motives to the yonger ſort which may perſwade them to ſubmit themſelves both to publique and private Catechizing and Inſtruction. 3. I ſhall bring ſuch argu<g ref="char:EOLhyphen"/>ments as may prevail with all ſorts of people of what age or degree, what rank or quality ſoever to a chearful ſub<g ref="char:EOLhyphen"/>miſſion
+<pb n="6" facs="tcp:180530:10"/>to this neceſſary work of In<g ref="char:EOLhyphen"/>ſtruction in the Fundamentals of Religi<g ref="char:EOLhyphen"/>on.</p>
+               <p n="1">1. <milestone type="tcpmilestone" unit="unspecified" n="1"/> 
+                  <note place="margin">Branch of Ex<g ref="char:EOLhyphen"/>hortati<g ref="char:EOLhyphen"/>on.</note> I begin with thoſe whom God hath made Parents and Maſters of Fami<g ref="char:EOLhyphen"/>lies, to whom I ſhall propoſe theſe fol<g ref="char:EOLhyphen"/>lowing conſiderations, why they ought both to inſtruct their Families them<g ref="char:EOLhyphen"/>ſelves, and to bring them alſo to pub<g ref="char:EOLhyphen"/>lique Inſtruction.</p>
+               <div n="1" type="section">
+                  <head>
+                     <hi>Sect.</hi> 1.</head>
+                  <p>Every Father and Maſter is in his own houſe a King, <note place="margin">Motives for Pa<g ref="char:EOLhyphen"/>rents &amp; Maſters.</note> a Prieſt, and a Prophet. houſe a King, a Prieſt, and a Prophet. He is a King to govern them, a Prieſt to pray with them, and for them, a Pro<g ref="char:EOLhyphen"/>phet to inſtruct and teach them. If you will take upon you to rule and govern your Families, you muſt inſtruct them too; you would not be juſtled out of your command in your own houſes, you muſt not thruſt your ſelves out of it by neglecting your inſtructing office. We read of <hi>Nymphas,</hi> 
+                     <note place="margin">Col. 4.15</note> that he had a Church in his houſe; his houſe is ſtiled a Church, not only becauſe the faithful came thi<g ref="char:EOLhyphen"/>ther to be inſtructed in the Faith, and to hold communion in thoſe times of per<g ref="char:EOLhyphen"/>ſecution, but alſo becauſe he did care<g ref="char:EOLhyphen"/>fully
+<pb n="7" facs="tcp:180530:10"/>inſtruct thoſe of his own Family in the knowledge of Chriſt, and trained them up in ſpiritual and holy Dutys. <hi>Familiam ſuam privatam fecit eccleſiam, eam pietate &amp; religione exernans.</hi> So <hi>The<g ref="char:EOLhyphen"/>odoret.</hi>
+                  </p>
+               </div>
+               <div n="2" type="section">
+                  <head>
+                     <hi>Sect.</hi> 2.</head>
+                  <p>God commands that we ſhould inſtruct our Children and Family in the know<g ref="char:EOLhyphen"/>ledg of God, <note place="margin">Deut. 4.9, 10. Deut. 6.5, 6. Deut. 11.19, 20. Pſal. 78.6. Eph. 6.8.</note> and the matters of Religi<g ref="char:EOLhyphen"/>on, where we may obſerve. 1. That they were to teach them; it was not a matter Arbitrary left at pleaſure, but a Duty. 2. What they ſhould teach them, the knowledg of God, of his ways and Commandments, not frivolous diſcourſes, Songs, Tales, Romances, but Gods Sta<g ref="char:EOLhyphen"/>tutes. 3. How they ſhould teach them, diligently and conſtantly, they muſt whet it often upon their memories, and never leave them, till they have made them underſtand. 4. The great advan<g ref="char:EOLhyphen"/>tage that they ſhould gain hereby, both they and their children they ſhould live long in the Land which God gave them. If thoſe were good motives to them, how much ſtronger have we? Was the Law which diſcovered their ſin, but could not cure it, ſo diligently to be
+<pb n="8" facs="tcp:180530:11"/>learned, and ſhall not the Goſpel which diſcovers a remedy for our ſin, be worth our knowledge? ſhould the Inheritance of an earthly poſſeſſion quicken them to gain the knowledge of Gods law, and ſhall not the enjoyment, of a perpetuall reſt, quicken us to get acquaintance with Jeſus Chriſt in the Goſpel?</p>
+               </div>
+               <div n="3" type="section">
+                  <head>
+                     <hi>Sect.</hi> 3.</head>
+                  <p>God commands children to learn of their Parents, and to hearken to their In<g ref="char:EOLhyphen"/>ſtruction, which implyes the Parents duty to teach them. <note place="margin">Prov. 6.20, 21.</note> 
+                     <hi>My ſon keep the Com<g ref="char:EOLhyphen"/>mandment of thy Father, and forſake not the law of thy Mother. Bind them conti<g ref="char:EOLhyphen"/>nually upon thine heart, and tie them about thy neck.</hi> 
+                     <note place="margin">Mercer.</note> The Commandments of Pa<g ref="char:EOLhyphen"/>rents that fear the Lord, are the very Commandments of God himſelf, and therefore carefully to be kept. <note place="margin">Deut 6.8.11-18.</note> Bind them continually] a phraſe frequent in Scrip<g ref="char:EOLhyphen"/>ture, importing, that they ſhould never forget them, but that they ſhould be al<g ref="char:EOLhyphen"/>ways in our eye, <note place="margin">Exod. 12.26. Exod. 13.14.</note> in our heart as our greateſt ornament. Nay, it is not only their duty to learn when they are taught, but alſo to be enquiring, that they may learn, which is plainly hinted in thoſe
+<pb n="9" facs="tcp:180530:11"/>texts. If children had any ſence of true Religion, they would be enquiring into the nature, ground, and end of thoſe ſervices which were done to God; for true Religion is the exerciſe of mind inlightned by Faith and Knowledge, and not a piece of blind and ignorant devo<g ref="char:EOLhyphen"/>tion. <note place="margin">Joſh 4.6. Deut. 32.7.</note> A man ſhould be able to give ſome account of every thing that he doth in Gods ſervice, and why and upon what account he doth it; when they ask, you ought to teach them.</p>
+               </div>
+               <div n="4" type="section">
+                  <head>
+                     <hi>Sect.</hi> 4.</head>
+                  <p>Gods children have always made this their great care. <hi>Abraham,</hi> 
+                     <note place="margin">Gen. 18.19.</note> I know <hi>Abraham,</hi> that he will teach his children, &amp;c. I know him, he is a godly Man, he will not neglect ſo neceſſary and im<g ref="char:EOLhyphen"/>portant a duty as this. <hi>Abraham</hi> were not the man I took him for, indeed <hi>Abra<g ref="char:EOLhyphen"/>ham</hi> were not <hi>Abraham</hi> if he would not make a conſcience of teaching his children and his houſhold after him, that they might walk in Gods ways. <note place="margin">Joſh. 24.15.</note> 
+                     <hi>Joſhua</hi> is reſolved upon the point, that whatever others did, he for his part would worſhip the true God, and that none ſhould neſt under his roof, who
+<pb n="10" facs="tcp:180530:12"/>would not do ſo too. We ſee what care <hi>David</hi> had of his Family, <note place="margin">Pſal. 101.6, 7.</note> when he pro<g ref="char:EOLhyphen"/>feſſes that he who would not ſubmit to Gods ways, to know and do his will, ſhould not tarry in his ſight: <note place="margin">Prov. 31.1.</note> 
+                     <hi>Solomons</hi> Mother was not wanting on her part, ſhe taught him a good Leſſon, if he had had the grace to have followed it. <hi>What my Son!</hi> 
+                     <note place="margin">Prov. 4.3. <hi>Vide Cart<g ref="char:EOLhyphen"/>wright</hi>
+                     </note> 
+                     <hi>and what the ſon of my womb! and what the ſon of my vows! Give not thy ſtrength unto women, nor thy ways to that which dectroyeth Kings;</hi> ſo did <hi>David.</hi>
+                  </p>
+                  <p>
+                     <hi>Timothy</hi> was born of godly Parents, <note place="margin">2 Tim. 1.5. &amp; 3.15.</note> as you may ſee, he had a good Mother, and a good Grand-mother, and theſe taught him the Scriptures from his youth.</p>
+                  <p>The Elect Lady's care was, <note place="margin">2 John 4.</note> that her children might be found walking in the truth.</p>
+               </div>
+               <div n="5" type="section">
+                  <head>
+                     <hi>Sect.</hi> 5.</head>
+                  <p>Parents and Maſters are anſwerable for thoſe miſcarriages of their children, into which they run for want of due in<g ref="char:EOLhyphen"/>ſtruction or correction. If the Command<g ref="char:EOLhyphen"/>ment be given to the Parents for their inſtruction, government, and puting them upon pious duties, then at their hands will God exact an account for that ignorance
+<pb n="11" facs="tcp:180530:12"/>and misbehavior which is found in them. <note place="margin">Deut. 4.9, 10. Exod. 20</note> But we find God commanding them to inſtruct their Families, and to keep them to his ſervice; Remember that thou keep holy the Sabbath day, thou, thy Son and thy Daughter, thy Man-ſervant and Maid<g ref="char:EOLhyphen"/>ſervant, &amp;c. The Command is given to the Parent and Maſter, who are pre<g ref="char:EOLhyphen"/>ſumed to have authority enough to ſee their Commands obeyed; and though the untaught and ungoverned Family ſhould periſh in their ſin, yet God will re<g ref="char:EOLhyphen"/>quire their blood at their Parents and Maſters hands. Inſtances of Gods deal<g ref="char:EOLhyphen"/>ing with Parents for their neglect of this duty we have in <hi>Eli,</hi> 
+                     <note place="margin">1 Sam. 3.13. 1 Kings 1.5. <hi>Chryſ. hom. de educat. lib.</hi>
+                     </note> and in <hi>David</hi> too.</p>
+               </div>
+               <div n="6" type="section">
+                  <head>
+                     <hi>Sect.</hi> 6.</head>
+                  <p>This buſineſs in hand is a matter of the greateſt concernment to them, what<g ref="char:EOLhyphen"/>ſoever be neglected, this ſhould not; this is that <hi>unum neceſſarium,</hi> without which they cannot be happy, as they may with<g ref="char:EOLhyphen"/>out other things. For, firſt their ſouls are much more precious then their bodies; theſe are but the caskets, thoſe the Jewels; theſe are of the earth earthy, thoſe are of
+<pb n="12" facs="tcp:180530:13" rendition="simple:additions"/>heaven heavenly; one of their ſouls weighs more then all the world; Many would, cannot purchaſe it, theres no worldly things can be found ſufficient for its exchange; it coſt more then ſo to redeem a ſoul. You are carefull for their bodies, that they want not food nor ray<g ref="char:EOLhyphen"/>ment, nor lodging, nor any thing that is needfull: If a bone be broken, how ſol<g ref="char:EOLhyphen"/>licitous are you to have it ſet? if a wound given, how carefull to have it cured? If a diſeaſe be growing on, how induſtrious are you to prevent or remove it? and will you be ſo carefull for their bodies, and do nothing for their ſouls; will you have no regard, how blind, how lame, how diſeaſed, how naked and void of all good their ſouls are?</p>
+                  <p>Secondly, Their future eſtate is more to be regarded then their preſent, this is but for a moment, that to eternity; the mi<g ref="char:EOLhyphen"/>ſeries which they are ſubject to here, are but ſuch as are common to man, through meaſure tollerable; thoſe which in ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>me your neglect, they may be ſub<g ref="char:EOLhyphen"/>ject to hereafter, will be intollerable. The greateſt happineſs that you can procure for them here is but tranſitory, and it is mixt with much ſorrow: that
+<pb n="13" facs="tcp:180530:13"/>whereof you deprive them by want of inſtruction, is permanent, a full and per<g ref="char:EOLhyphen"/>fect happineſs without any mixture of evil in it. It is an argument of the great<g ref="char:EOLhyphen"/>eſt love to provide beſt for their better part. When <hi>Solomon</hi> would tell us how his Father inſtructed him, he tells us alſo what the reaſon was that he was ſo care<g ref="char:EOLhyphen"/>full of him; <hi>I was my Fathers ſon,</hi> 
+                     <note place="margin">Prov. 4.3.</note> 
+                     <hi>and the only beloved in the ſight of my mother;</hi> true love, makes Parents inſtruct their children in true Piety; the more they in<g ref="char:EOLhyphen"/>ſtruct them, the better they love them. Its a fooliſh cockering love that makes us loth to trouble their heads with the knowledg and practice of their duty: thus <hi>David</hi> loved <hi>Adonijah,</hi> to his own and his Sons coſt. <hi>David</hi> had more ſons by <hi>Bathſheba,</hi> but we read not that he took that pains to teach them, as he did <hi>Solomon;</hi> this was his Darling, and the better he loved him, the more carefull he was to teach him in Gods ways.</p>
+                  <p>But thirdly, if men be ſo carefull to provide for their childrens welfare in this world, now much more carefull ſhould they be to provide for their eternal con<g ref="char:EOLhyphen"/>dition; you take much pains that they may live like men when you are dead,
+<pb n="14" facs="tcp:180530:14" rendition="simple:additions"/>and will you take no care nor pains that they may like like Saints, when they are dead? You would have them live like men here, will you be content that they ſhould live like Devils hereafter! You provide for them riches which the ruſt and moth doth corrupt, and will you not provide for them more durable riches? <hi>Aristippus</hi> was wont to adviſe Parents, that ſince our paſſage thorough this world was like a voyage by Sea, they ſhould provide ſomething for their chil<g ref="char:EOLhyphen"/>dren, that they might carry to the ſhore with them, in caſe they ſuffered ſhip<g ref="char:EOLhyphen"/>wracks; <note place="margin">
+                        <hi>Cic. Pa<g ref="char:EOLhyphen"/>radox.</hi> 6. <hi>calc.</hi>
+                     </note> by which he meant knowledge and vertue; all other things may be loſt in wrack, but this cannot be loſt; theſe will ſtick by us, when all other things forſake us. When <hi>Demetrius</hi> beſieged and ſacked <hi>Megara,</hi> he asked <hi>Stilpon,</hi> whether he had loſt any thing? No, (ſaith he) thy ſoldiers cannot plunder me of my vertue, and for other things, I count the parting with them no loſs. when <hi>Socrates</hi> was asked his opinion what he thought of ſuch a mighty Prince, whether he were not the happi<g ref="char:EOLhyphen"/>eſt man living? I do not know (ſaith he) what ſtock of wiſdome or vertue he
+<pb n="15" facs="tcp:180530:14"/>hath. He that beſt inſtructs and brings up his children in their youth, makes the beſt proviſion for them againſt their age.</p>
+                  <p>Hence the Poet calls the inſtitution of youth, <hi>Miſeriſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> viatica canis,</hi> the beſt pro<g ref="char:EOLhyphen"/>viſion for gray hairs. <note place="margin">
+                        <hi>Perſ.</hi> 5. <hi>Satyr. v.</hi> 65.</note> You muſt not neg<g ref="char:EOLhyphen"/>lect thoſe fair advantages w<hi rend="sup">ch</hi> God puts into your hand for their outward eſtate: but your chief and greateſt care ſhould be for their ſouls good.—<gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. <hi>Epict. Enchirid. c.</hi> 63.</p>
+                  <p>What if thy child come not to be great nor rich in this world, yet he may be an honeſt, gracious man, and rich toward God: but if thou ſuffereſt him to live in ignorance of Religion, whate<g ref="char:EOLhyphen"/>ver thou provideſt for him elſe, in the end he will be moſt miſerable. Poor <hi>Lazarus</hi> would not change skins, though it were full of ſores, with rich <hi>Dives.</hi> Verily, our extraordinary diligence in making temporal proviſion for our chil<g ref="char:EOLhyphen"/>dren, will riſe in judgement againſt us for our utter neglect of their eternal welfare.</p>
+               </div>
+               <div n="7" type="section">
+                  <pb n="16" facs="tcp:180530:15"/>
+                  <head>
+                     <hi>Sect.</hi> 7.</head>
+                  <p>This is the fitteſt ſeaſon to inſtil know<g ref="char:EOLhyphen"/>ledge into them, before their hearts be corrupted with the pleaſures, or inſna<g ref="char:EOLhyphen"/>red with the profits of this world. If you ſuffer thoſe things to preingage them, it will be a harder matter to make them unlearn evil, then it would have been to have made them learn that which was good before. While they are young, their memories are beſt, their appetites are ſtrongeſt, their affecti<g ref="char:EOLhyphen"/>ons keen and eager; they are now apter to learn and to take any impreſſion you ſhall ſet upon them, now they muſt be followed cloſe. <note place="margin">
+                        <hi>Perſ. Sat.</hi> 3. <hi>v. Caſaub. Plato</hi> 2. <hi>de legi<g ref="char:EOLhyphen"/>bus.</hi>
+                     </note> 
+                     <hi>[<g ref="char:V">Ʋ</g>dum &amp; molle lutum es — Nunc, nunc properand. &amp;c.</hi> —] As age grows on, they will be more hard to learn. They are now of an active diſpoſition, they find themſelves em<g ref="char:EOLhyphen"/>ployed in ſomething. If you employ them not in what is good, they will em<g ref="char:EOLhyphen"/>ploy themſelves in what is bad. Good things are as eaſily learnt as bad, (were they but as diligently taught); a Cate<g ref="char:EOLhyphen"/>chiſe as eaſily learned as a Ballad, or a tale of <hi>Robin Hood.</hi> Whatſoever you would have your children excellent in,
+<pb n="17" facs="tcp:180530:15" rendition="simple:additions"/>teach it them betimes. <note place="margin">Heyl. Geog. in Ruſſia.</note> In <hi>Ruſſia</hi> they train up their children to ſhooting in their minority, and give them nothing to eat till they can hit a white that is ſet before them. The <hi>Baleant</hi> give them no meat, <note place="margin">
+                        <hi>Flor. hiſt. l.</hi> 3. <hi>c.</hi> 8.</note> but what they can kill with their ſling, <hi>[Cibum puer à Matre non accipit, niſi quem ipsâ monſtrante percuſſit.</hi>—] time and uſe makes them Maſters of their Art. Much may be done with children ere we think fit to trouble them with ſuch things. They can learn to ſwear, and to prophane the Sabbath, why might they not as well be taught to read, to be catechiſed, to learn ſome choice Scriptures by heart? I have heard of that Noble Lady, the now Lady <hi>Pack<g ref="char:EOLhyphen"/>ington,</hi> daughter of the Lord Keeper <hi>Coventry,</hi> that in her minority ſhe was tyed by the ſtrictneſs of her education to learn daily ſuch a proportion of Scripture by heart, before ſhe ſhould eat a bit of bread; by which cuſtome and aſſiduity ſhe became in a ſhort time ſo perfect in the Scripture, that ſhe had a great part of the Old Teſtament, and all the New ſo perfectly by heart, that ſhe could repeat any chapter backward or forward, tell you any particular verſe
+<pb n="18" facs="tcp:180530:16"/>or words, where they were, what went before, and what followed after. In<g ref="char:EOLhyphen"/>deed ſhe was a living Concordance, the very Prodigy of Memory, whoſe excel<g ref="char:EOLhyphen"/>lencies in theſe attainments are almoſt beyond the belief of any, but of thoſe who have ſeen or heard her examined. Husbandmen know that they muſt not expect a good crop, unleſs they ſow in a right ſeaſon. Youth is the time to have the ſeeds of grace and godlineſs ſown, elſe there's little hope of a good and a holy life.</p>
+               </div>
+               <div n="8" type="section">
+                  <head>
+                     <hi>Sect.</hi> 8.</head>
+                  <p>Children are the ſeed-plot of the Church and Common-wealth; thoſe who are now children, will ſoon grow up to be men of action both in things con<g ref="char:EOLhyphen"/>cerning God and their countrey. Such as they are when they ceaſe to be chil<g ref="char:EOLhyphen"/>dren, ſuch they will be when they begin to be men. Thoſe who ſpend their youth in ignorance, idleneſs, naughti<g ref="char:EOLhyphen"/>neſs, what can you expect from them when they become men, but to grow from bad to worſe? As youth leaves them, manhood finds them; good, if
+<pb n="19" facs="tcp:180530:16"/>good; if bad, ſtark naught. What impreſſions are put upon wax when it is melted, you ſhall find upon it when it is hardned. What you write upon white paper, ſticks there. What ſavor your veſſels have when they are new, they retain when they are old. What good you infuſe into youth, it will reliſh on, when it is ripened into age. The wiſe man gives counſel like himſelf, Train up, (or catechize) a child in the way that he ſhould go, <note place="margin">Prov. 22.6.</note> and in his age he will no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> depart from it. It ſhould be ſomething to us to conſider what poſterity we are like to leave behind us; and that we may labour to make the generation to come happier then this, by giving our children better inſtruction then (perhaps) we have had. <hi>Pythagoras</hi> was wont to ſay, <note place="margin">Lilius Gyrald. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ymb. Pytha<g ref="char:EOLhyphen"/>num pro<g ref="char:EOLhyphen"/>pter opes.</note> that the main end of our begetting and bringing forth children ſhould be<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> that we might leave thoſe behind us who may ſerve God in their generation. When we conſider the trouble and miſe<g ref="char:EOLhyphen"/>ries which our eyes have ſeen, we are ready to wiſh and hope that our children may ſee better times. Good men will make good times: Time is in it ſelf nor good nor evil, but as the perſons are
+<pb n="20" facs="tcp:180530:17"/>who live in them. Do your duty, and you may much promote your own de<g ref="char:EOLhyphen"/>ſires: Labour to make them more know<g ref="char:EOLhyphen"/>ing men, and more obedient to God, and that will make better men, and bet<g ref="char:EOLhyphen"/>ter men will make better times.</p>
+               </div>
+               <div n="9" type="section">
+                  <head>
+                     <hi>Sect.</hi> 9.</head>
+                  <p>This will enable them to profit by the Sermons which they hear: And the want of this is one main ground of that ſtrange non-proficiency amongſt men, that live even under powerful Miniſters. God hath been exceedingly gracious in giving his word a free paſſage, which is by many men ſet on with a great deal of power and life; yet many even of ſuch complain in the bitterneſs of their ſouls, and ſay, Lord, who hath believed our report? and to whom is the arm of the Lord revealed? In many ſuch places, there's but little good done; and this I conceive amongſt others is not the ſmal<g ref="char:EOLhyphen"/>leſt cauſe, that they who come to hear the Word Preached, are in no meaſure prepared thereunto, by underſtanding the Principles of Religion. If they un<g ref="char:EOLhyphen"/>derſtood beforehand what Juſtification,
+<pb n="21" facs="tcp:180530:17"/>Sanctification, Adoption, &amp;c. were what the covenant of works, and the cove<g ref="char:EOLhyphen"/>nant of grace were, then, they would be able to go along with us in what we ſay: But being ſo arrantly ignorant of Fun<g ref="char:EOLhyphen"/>damental neceſſary truths, we only ſpeak into the air, they give us the hearing, and they depart no wiſer then they came. A man would wonder elſe what ſhift many men could make to remain ſo ig<g ref="char:EOLhyphen"/>norant: who are like the <hi>Ectones,</hi> 
+                     <note place="margin">Heyl. Geo. in Lyvon.</note> the original inhabitants of <hi>Poland,</hi> who are diligent frequenters of the Churches, but ſo extreamly ignorant, that hardly one in a Village can ſay his <hi>Pater Noſter.</hi>
+                  </p>
+                  <p>Should any of you hear a man make a learned Diſcourſe concerning any point in Geometry, Arithmetick, &amp;c. you might admire what you did not under<g ref="char:EOLhyphen"/>ſtand: but if you were beforehand in<g ref="char:EOLhyphen"/>ſtructed in the Principles of that Sci<g ref="char:EOLhyphen"/>ence, you would then ſee the reaſon of what was ſpoken, your underſtandings would cloſe with the things delivered, and you would reap profit by that Diſ<g ref="char:EOLhyphen"/>courſe. So in this caſe, were men bet<g ref="char:EOLhyphen"/>ter inſighted into the Principles of Reli<g ref="char:EOLhyphen"/>gion, we ſhould ſoon ſee better fruits of all our labors.</p>
+               </div>
+               <div n="10" type="section">
+                  <pb n="20" facs="tcp:180530:18"/>
+                  <head>
+                     <hi>Sect.</hi> 10.</head>
+                  <p>The want of this is the unhappy ground of that unſtableneſs in the faith, which to the reproach of our Religion, diſcovers it ſelf ſo viſibly amongſt us at this day. <note place="margin">Epheſ. 4.14.</note> That of the Apoſtle is too apparently manifeſted amongſt us, that many of us are like children toſſed to and fro, and carried about with every wind of doctrine, by the ſleight of men and cunning craftineſs, whereby they lie in wait to deceive, which hinders their growing up into him in all things, who is the head, even Chriſt. I find in ſtory mention made of one <hi>Philetas Coûs,</hi> 
+                     <note place="margin">Symſ. Chron. parte 5. pag. 44.</note> an excellent Grammarian and Poet, [Maſter <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o <hi>Ptolomeus Philadelphus,</hi> that great lover and promoter of Learning] but of ſo ſmall and thin a body, that he was fain to wear ſoles of lead upon his ſhooes, <note place="margin">
+                        <hi>Non du<g ref="char:EOLhyphen"/>bitamus, cur tot hereſes &amp; nova dogmata locum paſſim inveniunt, cauſam vel maximam eſſe catechizatio<g ref="char:EOLhyphen"/>nis neglectum, &amp;c.</hi> Act. Syn. od. ſeſſ. 15. Judic. Theol. Palat.</note> or elſe every blaſt of wind would overturn and blow him down. The reaſon why ſo many are ſo eaſily toſſed aſide by every wind of Doctrine, is, becauſe they are not well bottom'd, nor kept ſteady by the Principles of Re<g ref="char:EOLhyphen"/>ligion.
+<pb n="21" facs="tcp:180530:18"/>This is the true ground why every new Doctrine finds ſo many ſol<g ref="char:EOLhyphen"/>lowers, becauſe they were never eſta<g ref="char:EOLhyphen"/>bliſht in the truth. We have ſeen many who have made fair ſhew for a time, readily embrace and admire any new Diſcoveries which have been offered to them, under the ſpecious vizor of New<g ref="char:EOLhyphen"/>light. They have run thorough all thoſe new Modes of Religion which the Fa<g ref="char:EOLhyphen"/>ther of lyes hath preſented them with<g ref="char:EOLhyphen"/>all, <note place="margin">1 Joh. 2.19.</note> always liking that beſt which was neweſt, not finding where to reſt their feet, having once forſaken that good old way of Goſpel-Truth, wherein (indeed) they were never thoroughly inſtructed. If they had been of us, they would no doubt have continued with us; but they went out that it might be made manifeſt that they were not at all of us. This is the cauſe of thoſe many ſad breaches grown in families to their utter ruine, while they run into ſeveral ways with ſuch eagerneſs and animoſity, contend<g ref="char:EOLhyphen"/>ing to maintain their ſeveral parties, when it may be few of them have any competent knowledge of the Funda<g ref="char:EOLhyphen"/>mentals of Religion, and fewer have any true ſenſe of the power of godlineſs
+<pb n="24" facs="tcp:180530:19"/>upon their hearts. When the ſhip wants ballaſt every guſt of wind will overſet it. When the mind is void of ſerious know<g ref="char:EOLhyphen"/>ledge, no wonder that errors creep into the judgement, and looſeneſs into the converſation. <note place="margin">Col. 2.7, 8.</note> Thoſe who are not root<g ref="char:EOLhyphen"/>ed and grounded in Chriſt, will be eaſily ſpoiled through Philoſophy and vain deceit.</p>
+               </div>
+               <div n="11" type="section">
+                  <head>
+                     <hi>Sect.</hi> 11.</head>
+                  <p>The eternal welfare of your families depends upon it. <note place="margin">Joh. 17.3</note> This is life eternal to know God and Jeſus Chriſt whom he hath ſent. O that you would give your thoughts liberty to expatiate in this wide field! That you would ſeriouſly lay to heart what Heaven and Hell are, <note place="margin">
+                        <g ref="char:V">Ʋ</g>bi nec operoſa actio, nec requies deſidioſa, laus erit ſine faſti<g ref="char:EOLhyphen"/>dio, ſine defectu, Aug.</note> how full of glory the one, how full of horror and amazedneſs the other! Hea<g ref="char:EOLhyphen"/>ven, it is the throne of God, the pur<g ref="char:EOLhyphen"/>chaſe of Chriſt, the habitation of An<g ref="char:EOLhyphen"/>gels, the expectation of men, the envy of Devils. There's the viſion of God, communion with all Saints, and an un<g ref="char:EOLhyphen"/>interrupted enjoyment of eternal reſt. There's pure pleaſure without pain, a continual day without night, perfect holineſs without ſin. The good things
+<pb n="25" facs="tcp:180530:19"/>which God hath provided there for them that know and love him, are ſo <hi>many,</hi> they cannot be <hi>numbred;</hi> ſo <hi>great,</hi> they cannot be <hi>meaſured;</hi> ſo <hi>precious,</hi> they cannot be <hi>valued.</hi> They are as far beyond our apprehenſion, as expreſſion. <note place="margin">2 Cor. 12.4.</note> Who can declare that which Gods Spirit tells us is ineffable? Who can tell me how much ſweetneſs, <note place="margin">
+                        <hi>Bern. in</hi> 11. of Cant. <hi>Omnes deliciae L<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>eus erit. Auſt. ib</hi>
+                     </note> how much happi<g ref="char:EOLhyphen"/>neſs is wrapt up in thoſe few words, <hi>God ſhall be all in all;</hi> your faith moſt make out what your reaſon cannot compaſs, and what the tongue of men and Angels cannot expreſs. [—<gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. <hi>Nilus in ſentent. Tom</hi> 1. <hi>Orthodoxog.</hi> p. 181] And for Hell, the very name and notion of it is enough to make a mans heart ake, and his ſinews tremble<g ref="char:punc">▪</g> 
+                     <note place="margin">Eſa. 66. ult.</note> There's the worm that never dyeth, and the fire that never goes out; the worm that ne<g ref="char:EOLhyphen"/>ver dyeth, is the gnawing and twinging, the horror and amazedneſs of the con<g ref="char:EOLhyphen"/>ſcience, which ſhall then reproach us for our neglect of knowledge and the means of grace. When conſcience remembers how many fair advantages we have ſlipt of making our calling and election ſure, how many invitations we have ſlighted,
+<pb n="26" facs="tcp:180530:20"/>and how much means we have neglected, then it will lay about it, and torment the ſoul. Conſcience may be dull and ſenſleſs here, and go ſleeping to Hell; but it comes no ſooner there, but it is a<g ref="char:EOLhyphen"/>wakened to its coſt. It reproaches and reviles the ſinner, and makes his condi<g ref="char:EOLhyphen"/>tion ſo much the worſe, becauſe he was the occaſion of his own ſufferings. [There's the fire that never goes out] O diſmal, dreadful fire! Fire without light, for there is utter darkneſs in the midſt of it; fire mixt with cold, for while the tongue burns, the teeth chatter; fire without comfort, mixt with ſtifling choaking brimſtone. Fire that will ne<g ref="char:EOLhyphen"/>ver want fewel to maintain it, there is much wood, and the breath of the Lord like a ſtream of brimſtone kindling it. <note place="margin">Eſa. 30.33.</note> Who can endure to hold his finger in the fire but for a moment? How do we roar and cry when we are but a little ſinged, ſcorched, burned? And if our material fire be ſo irkſome and intolera<g ref="char:EOLhyphen"/>ble, what will that keener and more ſub<g ref="char:EOLhyphen"/>tile fire be which will work upon the ſoul as well as upon the body! What will it be to have fire accompanied with cold, and darkneſs, and brimſtone?</p>
+                  <pb n="27" facs="tcp:180530:20"/>
+                  <p>What will it be to have our childrens beds made in the midſt of this fire? What will it be to have them lie for ever in theſe everlaſting burnings? <note n="*" place="margin">
+                        <hi>
+                           <g ref="char:V">Ʋ</g>bi nec tortores de<g ref="char:EOLhyphen"/>ficiunt, nec torti moriun<g ref="char:EOLhyphen"/>tur, quibus ſine fine more eſt, non poſſe in cruciati<g ref="char:EOLhyphen"/>bus mori.</hi> Aug. id.</note> where they ſhall be ever burning, and yet never conſumed, always dying, and yet never dead. To be without eaſe, and with<g ref="char:EOLhyphen"/>out hope, and all this in the company, and under the power of ſo many hideous ugly fiends, <note n="†" place="margin">
+                        <hi>Ad ſo<g ref="char:EOLhyphen"/>latium malevo<g ref="char:EOLhyphen"/>lentiſſi<g ref="char:EOLhyphen"/>mu<g ref="char:cmbAbbrStroke">̄</g> dam<g ref="char:EOLhyphen"/>nationis ſuae, &amp;c.</hi> Id.</note> whoſe only refreſhment under their own torments will be to exe<g ref="char:EOLhyphen"/>cute their wrath and malice upon poor beguiled ſouls. O now you that have the bowels of Parents, tell me, whether it be not a matter of concernment, to teach your children to know God and Jeſus Chriſt? Whether the joys of Hea<g ref="char:EOLhyphen"/>ven are not worth the having? And the torments of Hell ſo inconſiderable, that 'tis not worth while to avoid them? O do, do not betray your own fleſh and bloud, and thoſe precious ſouls which lodge in houſes of clay, by your negli<g ref="char:EOLhyphen"/>gence, into thoſe eternal flames, nor bereave them of thoſe eternal joys!</p>
+               </div>
+               <div n="12" type="section">
+                  <pb n="28" facs="tcp:180530:21"/>
+                  <head>
+                     <hi>Sect.</hi> 12.</head>
+                  <p>Their ſouls will bleſs you when they come to Heaven for all your care and pains in ſowing the ſeeds of Religion in their minds by a godly education. If the Saints in Heaven ſhall know their former relations, (as it is probable) how will your children then bleſs God for your conſcientiouſneſs in the diſcharge of your duty, whereby they had the happineſs of coming to the ſaving know<g ref="char:EOLhyphen"/>ledge of that God, whom now they ſhall enjoy to all eternity. On the other hand conſider how they will revile and curſe you, if they meet you in Hell, whither they are condemned (with you) through the neglect of your duties. Methinks I ſee ſuch a miſerable ſoul caſting balls of Hell fire into his fathers face, and yelling out ſuch hideous words, Curſed be the hour wherein I was conceived, and the day wherein I was born thy child. Hadſt thou done thy duty in inſtructing me in the fear of God, and in the knowledge of his ways, I might have been a glori<g ref="char:EOLhyphen"/>ous Saint in Heaven; whereas now, through thy neglect, I am become a mi<g ref="char:EOLhyphen"/>ſerable firebrand in Hell. I had indeed from thee a temporary life (which I had
+<pb n="29" facs="tcp:180530:21"/>better never have enjoy'd) but thou haſt betrayed me to an eternal death. I am undone, undone for ever by thy perfidi<g ref="char:EOLhyphen"/>ouſneſs, and thou who waſt the father of my body, haſt been the murderer of my ſoul. [<hi>Perdidit nos aliena perfidia, Parentes ſenſimus parricidas, Auſtin. Ep.</hi> 23 <hi>ad Bonif.</hi> out of <hi>Cyprian in Epiſt. de Lapſis</hi>] With what face canſt thou be<g ref="char:EOLhyphen"/>hold me frying upon theſe coles, to which I am betray'd by thy unfatherly careleſ<g ref="char:EOLhyphen"/>neſs? Had I been thy ſlave, nay, thy horſe, thy dog, thou wouldſt have pro<g ref="char:EOLhyphen"/>vided what had been fit for me, but be<g ref="char:EOLhyphen"/>ing thy child, thou haſt neglected me in that which moſt concerned me, my ſoul. When <hi>Quintilius Varius</hi> had by his raſhneſs and indiſcretion loſt three Legions of his Maſters the Emperor <hi>Auguſtus,</hi> in <hi>Germany;</hi> the Emperor was obſerved to be long after very penſive, ſometimes pulling off the hair from his beard, ſometimes beating his head in a frantick manner againſt the poſts, and to cry out. <hi>[Redde mihi Legiones Quin<g ref="char:EOLhyphen"/>tili Vari]</hi> Reſtore me my Legions which thou haſt loſt. How much more bitterly ſhall theſe undone creatures cry out to their Parents in Hell, <hi>Reddite nobis
+<pb n="30" facs="tcp:180530:22"/>animas,</hi> Reſtore us our ſouls which you have loſt. I have heard at many execu<g ref="char:EOLhyphen"/>tions the dying Malefactors make ſad complaints againſt their Parents negli<g ref="char:EOLhyphen"/>gence in this kind, charging their bloud upon the not performance of their Pa<g ref="char:EOLhyphen"/>rents duty. What may be expected from ſuch perſons in the flames of Hell, where all manner of reſpect and love is baniſht? I am apt to think that it will be a great part of the damneds Parents mi<g ref="char:EOLhyphen"/>ſery in Hell, to hear the reproaches and revilings of their children, whom their neglect of doing their duty hath betray'd unto that place of torment.</p>
+               </div>
+               <div n="13" type="section">
+                  <head>
+                     <hi>Sect.</hi> 13.</head>
+                  <p>You may then expect a bleſſing in them, and what they undertake, when they are taught <hi>to obey for conſcience ſake.</hi> All other both natural and civil ties are too weak to keep children to their du<g ref="char:EOLhyphen"/>ties, <note place="margin">2 Sam. 15</note> but this will do it. <hi>Abſalom,</hi> though an own ſon, lifted up his hand againſt <hi>David,</hi> a man after Gods heart, to de<g ref="char:EOLhyphen"/>ſtroy him: <note place="margin">1 Sam 24.5, 6.</note> 
+                     <hi>David</hi> durſt not do ſo to <hi>Saul,</hi> a father in law, and a wicked ty<g ref="char:EOLhyphen"/>rant, who ſought his life. What is the reaſon of the great diſobedience and un<g ref="char:EOLhyphen"/>dutifulneſs
+<pb n="31" facs="tcp:180530:22"/>of children to their Parents, but that Parents are ſo careleſs of teach<g ref="char:EOLhyphen"/>ing them to know God, and have not imprinted their duties upon their conſci<g ref="char:EOLhyphen"/>ences, to reſtrain them from ſuch courſes? I do not ſay, that all that are ſo taught are obedient, and a comfort to their Pa<g ref="char:EOLhyphen"/>rents; no, Grace is not <hi>(ex traduce)</hi> by generation, no more then their ſouls. The Spirit blowes where it liſteth; many a gracious man hath to his grief a grace<g ref="char:EOLhyphen"/>leſs and ſtubborn child. But this I am ſure of, that they who neglect the per<g ref="char:EOLhyphen"/>formance of this duty toward their chil<g ref="char:EOLhyphen"/>dren which God requires, cannot with any good confidence expect that duty which their children owe to them; they only may expect it, who conſcionably make uſe of the means which God hath appointed them.</p>
+               </div>
+               <div n="14" type="section">
+                  <head>
+                     <hi>Sect.</hi> 14.</head>
+                  <p>You will much help forward the Mini<g ref="char:EOLhyphen"/>ſter in his publick work, who ſhall but labor in the fire, and take much pains to ſmall purpoſe, if you aſſiſt not in pri<g ref="char:EOLhyphen"/>vate. The children are yours, and you muſt not caſt all the work upon the Mi<g ref="char:EOLhyphen"/>niſters backs, and you your ſelves not
+<pb n="32" facs="tcp:180530:23"/>touch it with one of your fingers. It is not one daies inſtruction in a week, that will carry on the work; you muſt take all occaſions to put them on in private. There is no time wherein you may not take ſome advantage to do them good; when thou ſitteſt in thine houſe, <note place="margin">Deut. 6.7.</note> when thou walkeſt in the way, when thou lieſt down, and when thou riſeſt up. This will advance them much; and you your ſelves ſhall find the profit on't. <hi>Docendo diſcetis,</hi> (as one of the Fathers acknow<g ref="char:EOLhyphen"/>ledges of himſelf) While you teach them, and hear them learn, you will learn with them, and imprint what you have learned more laſtingly in your memo<g ref="char:EOLhyphen"/>ries.</p>
+               </div>
+               <div n="15" type="section">
+                  <head>
+                     <hi>Sect</hi> 15.</head>
+                  <p>The very Heathens will riſe up in judgement againſt you, <note place="margin">
+                        <hi>Plato de legibus, Plutar. de Ed. lib. Epict. Enchir. Pythag. Aurea carm.</hi> they had their <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>
+                        <hi>&amp;</hi> 
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>. <hi>Arrian, apud Epict. lib.</hi> 1. <hi>cap.</hi> 27.</note> and condemn you for your neglect of this duty. How exceeding careful the wiſer ſort of them were in this particular, he that hath but caſt an eye into their Writings, will eaſi<g ref="char:EOLhyphen"/>ly perceive. They had their Manuals and Compendiums of their doctrine to
+<pb n="33" facs="tcp:180530:23" rendition="simple:additions"/>teach them their duty both to God and man; they had reduced their doctrine to ſome few ſhort heads, which their Scholars were to have perfectly by heart. What a Pithy downright Cate<g ref="char:EOLhyphen"/>chiſme is that of the Poets.</p>
+                  <q>
+                     <l>[—<hi>Diſcite<expan>
+                              <am>
+                                 <g ref="char:abque"/>
+                              </am>
+                              <ex>que</ex>
+                           </expan> ô miſeri, &amp;c.</hi> 
+                        <note place="margin">
+                           <hi>Perſ. Sat.</hi> 3. <hi>v.</hi> 66. <hi>Vid. Caſaub.</hi>
+                        </note>—</l>
+                     <l>
+                        <hi>Quid ſumus! quidnam victuri gig<g ref="char:EOLhyphen"/>nimur? Ordo</hi>
+                     </l>
+                     <l>
+                        <hi>Quis datus, &amp;c.</hi>—]</l>
+                  </q>
+                  <p>That every man ſhould be able to give an account, What we are? What was the end of our Creation? What is the brevity and unconſtancy of life, and he certainty of death? What, and how admirable Gods Power, and Wiſdome, and Good<g ref="char:EOLhyphen"/>neſs, and Providence ſhines in the go<g ref="char:EOLhyphen"/>verning and ordering of the world? What bounds we ſhould put to our de<g ref="char:EOLhyphen"/>ſires of earthly things? To what end and purpoſe they are ſerviceable, and much more. Of what, many who pro<g ref="char:EOLhyphen"/>feſs Chriſtianity, can give but a ſlender account.</p>
+                  <p>
+                     <hi>Philip</hi> of <hi>Macedon,</hi> 
+                     <note place="margin">
+                        <hi>Quintus Curtius Supplem.</hi> 1. <hi>cap.</hi>
+                     </note> having found the benefit of good education himſelf, was careful to provide the beſt tutors for <hi>A<g ref="char:EOLhyphen"/>lexander</hi> his ſon, eſpecially <hi>Ariſtotle,</hi> by whoſe care and induſtry he was ſo well
+<pb n="34" facs="tcp:180530:24"/>improved, that it grew into queſtion, whether <hi>Alexander</hi> owed more to <hi>Phi<g ref="char:EOLhyphen"/>lip</hi> who begat him, or to <hi>Ariſtotle</hi> who taught him?</p>
+                  <p>The <hi>Perſians</hi> were exceeding exact in teaching their children betimes, <note place="margin">Xenoph. de inſt. Cyr. in princip.</note> they la<g ref="char:EOLhyphen"/>bored to prepoſſeſs their minds with good things before they were poiſoned with evil, as being rather deſirous to ſee them do what was good, then to puniſh them for doing amiſs.</p>
+                  <p>Nay, the very <hi>Turks</hi> themſelves are exceeding careful of training up their youth, <note place="margin">
+                        <hi>Grand Signor. Serag<g ref="char:EOLhyphen"/>lio,</hi> pub. by Mr. <hi>J. Greaves, p.</hi> 70, 71.</note> thoſe eſpecially that are to be for the more immediate ſervice of the grand Seigneur. The courſe that is taken with them ſo ſoon as they come into the <hi>Se<g ref="char:EOLhyphen"/>raglio,</hi> is admirable, and nothing reſem<g ref="char:EOLhyphen"/>bling the barbariſm of <hi>Turks,</hi> but beſee<g ref="char:EOLhyphen"/>ming men of ſingular vertue and diſci<g ref="char:EOLhyphen"/>pline; for they are exceeding well tuto<g ref="char:EOLhyphen"/>red, and daily taught as well good fa<g ref="char:EOLhyphen"/>ſhion, and comely behavior, as they are inſtructed in the rites and ceremonies of the <hi>Mahometan</hi> Law, and whatſoever elſe may tend to the enriching of their minds. What will ſuch Chriſtians be able to anſwer for themſelves at the day of Judgement, for their neglect of this
+<pb n="35" facs="tcp:180530:24"/>duty, wherein they ſee themſelves out<g ref="char:EOLhyphen"/>done by the purblind Heathen?</p>
+                  <p>I come now to the ſecond Branch of the Exhortation, which is to chil<g ref="char:EOLhyphen"/>dren and ſervants, to ſubmit themſelves to diſcipline, and to be willing to learn that which conduceth to their ſouls health. And that they may more cheer<g ref="char:EOLhyphen"/>fully yeeld up themſelves to publick and private inſtruction, I beſeech them by the mercies of God to conſider.</p>
+               </div>
+            </div>
+            <div type="part">
+               <div n="1" type="section">
+                  <head>
+                     <hi>Sect.</hi> 1.</head>
+                  <p>Your eternal ſalvation depends upon your knowledge of, and faith in Chriſt; what ways God hath for thoſe who dye in their infancy, we ſhall not be curious to inquire, much leſs confident to deter<g ref="char:EOLhyphen"/>mine: But for ſuch as are come to the uſe of reaſon, and to years of diſcretion, he ſaves none but ſuch as can and do <hi>act</hi> faith in Chriſt. <note place="margin">Hoſ. 4.6.</note> How can you believe on him whom you do not know? Want of knowledge is deſtructive to yong as well as to old. If you reject knowledge, he will alſo reject you. Either you have Parents that put you forward, or they do
+<pb n="36" facs="tcp:180530:25"/>not; if they do, you are bound to obey your Parents in the Lord, for this is good and right. <note place="margin">Eph. 6.1.</note> Diſobedience to Parents in things which they command, agreeable to the mind of God, is direct diſobedi<g ref="char:EOLhyphen"/>ence to God himſelf. If <hi>they</hi> be backward in <hi>their duty,</hi> be not <hi>you</hi> backward <hi>in yours.</hi> Your ſouls are your own, and you muſt give an account to God for them. God will require your bloud (if you dye for want of inſtruction) at your Parents hands, but you ſhall periſh in your ſins. Hell torments will not be a jot the eaſier to you, becauſe you come into them through your Parents fault. If they be careleſs of your eternal welfare, you had need to double your diligence, to make your calling and election ſure. You are put to your ſhifts to provide for your ſelves in your greateſt concernment, you muſt take the more pains. Are you ſo inconſiderable that your ſouls are not worth the ſaving? why, of ſuch is the kingdome of God.</p>
+               </div>
+               <div n="2" type="section">
+                  <head>
+                     <hi>Sect</hi> 2.</head>
+                  <p>You were engaged hereunto by Bap<g ref="char:EOLhyphen"/>tiſme; your Baptiſmal Covenant enga<g ref="char:EOLhyphen"/>ges you to learn all things belonging to
+<pb n="37" facs="tcp:180530:25"/>your ſouls health. You were baptized into the name of the Father, the Son, and the holy Ghoſt, and will you always be ignorant, who, and what that Father, Son and holy Ghoſt are? And what each of them doth toward the promoting of your eternal welfare? Will you grow old in the ignorance of that ordinance which you received ſo yong, and render it fruitleſs? You then renounced the world, the fleſh, and the devil, <note place="margin">
+                        <hi>Repete quid in<g ref="char:EOLhyphen"/>terroga<g ref="char:EOLhyphen"/>tus ſis, re<g ref="char:EOLhyphen"/>cognoſce quid re<g ref="char:EOLhyphen"/>ſponderis. tenetur vox tua in libro viventi<g ref="char:EOLhyphen"/>um, pre<g ref="char:EOLhyphen"/>ſentibus Angelis locutus es. Amb. de initi<g ref="char:EOLhyphen"/>and. c.</hi> 2.</note> and were dedicated unto Chriſt. What, will you live and dye in the ignorance of him, into whoſe warfare you have engaged your ſelves! Remember what was askt you, remember what you promiſed, what ſti<g ref="char:EOLhyphen"/>pulation and covenant was made that day between God and your ſouls. Your words were ſpoken in the preſence of Angels, and they are recorded in Hea<g ref="char:EOLhyphen"/>ven. If the children of <hi>Iſrael</hi> would be asking their Parents what was the meaning of Circumciſion and the Paſ<g ref="char:EOLhyphen"/>chal Lamb, thoſe Sacraments under the Law; is it commendable for you to ſpend all your days, and never inquire what is the end, uſe, nature of Baptiſme, and the Lords Supper, the Sacraments under the Goſpel? I beſeech you con<g ref="char:EOLhyphen"/>ſider
+<pb n="38" facs="tcp:180530:26"/>the vows of God are upon you.</p>
+               </div>
+               <div n="3" type="section">
+                  <head>
+                     <hi>Sect.</hi> 3.</head>
+                  <p>You have no aſſurance of your lives, but may be quickly taken away, and have no long time to learn. What will be<g ref="char:EOLhyphen"/>come of you if you are called to an ac<g ref="char:EOLhyphen"/>count before you have learned what to plead for your Juſtification? I have heard of a young man who being deſi<g ref="char:EOLhyphen"/>rous to be inſtructed in Moral Philoſo<g ref="char:EOLhyphen"/>phy, which is the Doctrine of living well, was diſſwaded from it; he was told he was too young, in the flower and prime of his youth, to which ſuch harſh rules were no way ſuitable; he might apply himſelf to that hereafter. <hi>O! but</hi> (ſaith he) <hi>what if I dye before I be elder, what will become of me then?</hi> Think ſeriouſly on this, the Charnel houſe hath as many little Skuls as great ones in it: there are as many young as old carried out to bury<g ref="char:EOLhyphen"/>ing. We often ſee (as the Proverb is) the old Camel carry the young Camels skin to market; Parents doing that office for their Children, which in the courſe of Nature might be expected from the Chil<g ref="char:EOLhyphen"/>dren to their Parents. If you were ſure of long life, yet it were no wiſdom to put off this work to old age; you will be
+<pb n="39" facs="tcp:180530:26"/>then harder to learn, your avocations more, your hindrances greater: Be<g ref="char:EOLhyphen"/>ſides, you muſt not put off ſowing your ſeed until it be time to reap. Since your time is uncertain, work while it is to day; neglect not your ſeaſon.</p>
+               </div>
+               <div n="4" type="section">
+                  <head>
+                     <hi>Sect.</hi> 4.</head>
+                  <p>You have much to do in a little time: <hi>Ars longa, vita brevis;</hi> our life is but ſhort, but our leſſon is long and difficult: A Chriſtians task is never at an end; ſo long as he lives he will have ſomething to learn, or to learn better: There be many things neceſſary to make the man of God perfect, throughly furniſhed unto every good work. The ſum of Chriſtian Reli<g ref="char:EOLhyphen"/>gion, though it may be drawn into a ſhort Catechiſm, yet 'tis of large ex<g ref="char:EOLhyphen"/>tent: Every Article requires an age to know it throughly. As there are many things to be known, ſo many of them are very difficult, <note place="margin">1 Tim. 3.16.</note> the whole knowledge of the Goſpel is a myſtery, a great myſtery, yea, beyond all controverſie, it is a great myſtery. <note place="margin">2 Pet. 3.16.</note> There be many (<gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>) things hard to be underſtood: And alas! our apprehenſions are but dull at ſpiritu<g ref="char:EOLhyphen"/>al, heavenly things. You are like veſſels that have but little mouthes, which re<g ref="char:EOLhyphen"/>ceive
+<pb n="40" facs="tcp:180530:27"/>whatſoever is put into them drop<g ref="char:EOLhyphen"/>meal Such veſſels will be long in filling, there muſt be the greater diligence, and continuance at the work.</p>
+               </div>
+               <div n="5" type="section">
+                  <head>
+                     <hi>Sect.</hi> 5.</head>
+                  <p>You ought not to be admitted to the Lords Supper, until you have attained a competent meaſure of knowledge; when you are grown up, you will take it ill to be kept back from that ſpiritual banquet, but to admit you without knowledge, is but to admit you to your own deſtructi<g ref="char:EOLhyphen"/>on, to invite you to poiſon inſtead of meat, to admit you to eat and drink your own damnation, 1 <hi>Cor.</hi> 11.29. But of this again hereafter. [<hi>Nemo ex juvenibus ad Coenae communionem admittitur niſi prius examinetur, an Myſterium hoc ſacrum probè intelligat.</hi> Judic. Theol. Helvet. Syn. Dodr. S. 15.]</p>
+               </div>
+               <div n="6" type="section">
+                  <head>
+                     <hi>Sect.</hi> 6.</head>
+                  <p>You are free from ſome of thoſe un<g ref="char:EOLhyphen"/>juſt prejudices which keep others from this neceſſary work. It's uſual with ſome of riper years, when they are called up<g ref="char:EOLhyphen"/>on to be inſtructed, to break out, What do you make us children ſtill? we are too old to be catechiſed: What an irra<g ref="char:EOLhyphen"/>tional
+<pb n="41" facs="tcp:180530:27"/>retortion and anſwer this is, we ſhall conſider in its proper place; but you, with whom we have now to do, have no pretence to this plea. You are young, and none of us brought know<g ref="char:EOLhyphen"/>ledge into the world with him, but we muſt get it. It is not ſo much a ſhame to <hi>be</hi> ignorant, as to <hi>continue</hi> ſo, when we have means and opportunities to learn. It cannot be expected that any ſhould know the things of God, till they be taught, and youth is the fitteſt time to learn. You take it no diſparagement to learn a Trade or Myſtery when you are young, why ſhould you think it any to learn the great Myſtery of Godlineſs.</p>
+               </div>
+               <div n="7" type="section">
+                  <head>
+                     <hi>Sect.</hi> 7.</head>
+                  <p>You are ſubject to ſtronger affections, paſſions, luſts, in your youth, and there<g ref="char:EOLhyphen"/>fore ſhould more carefully lay in provi<g ref="char:EOLhyphen"/>ſions againſt them. It's a great matter to abſtain from the ſin of youth, <note place="margin">
+                        <p>
+                           <hi>Magnum eſt à vi<g ref="char:EOLhyphen"/>tiis juventutis abſti<g ref="char:EOLhyphen"/>nere.</hi> Amb. in obi<g ref="char:EOLhyphen"/>tu Valentin. to. 5. p. 107.</p>
+                        <p>
+                           <hi>Grave eſt juveni cujus aetas eſt florulen<g ref="char:EOLhyphen"/>tior.</hi> Id.</p>
+                     </note> and to renounce the vanity and folly of it in our very entrance into the world. There is a great emphaſis in the word, <hi>Wherewithal ſhall a Young man cleanſe his way,
+<pb n="42" facs="tcp:180530:28"/>Pſal.</hi> 119.9. A <hi>Young-man,</hi> who is in the heat of blood, fulneſs of ſtrength, height of affections, and many times under the greateſt luſts. It's a hard taske for ſuch a one to ſubmit his ear to diſcipline, and to conquer theſe corruptions, he had need to be more careful to fetch in ſtrength, <note place="margin">
+                        <hi>Fretum adoleſcen<g ref="char:EOLhyphen"/>tiae.</hi> Flo<g ref="char:EOLhyphen"/>rus. l. 1. c. 26.</note> and to arm himſelf againſt it. The Hiſtorian calls Youth <hi>[fretum]</hi> a troubled and tempeſtuous Sea, when as a riper age, is but <hi>[Otium maris]</hi> a quiet and calm Bay, a ſafer Harbor; in a quiet Sea, it is no ſuch hard matter to ſteer and govern the ſhip aright, <note place="margin">
+                        <hi>Cum ſit aetas lu<g ref="char:EOLhyphen"/>brica frae<g ref="char:EOLhyphen"/>nari ac regi de<g ref="char:EOLhyphen"/>bet.</hi> Lact.</note> but in a tempe<g ref="char:EOLhyphen"/>ſtuous and working Sea, it requires more care and diligence. Youth is a ſlip<g ref="char:EOLhyphen"/>pery and unſteady age, and had need of much caution and circumſpection to reſtrain, and guide, and fix it. Upon this conſideration St. <hi>Ambroſe</hi> thus read that place, <note place="margin">
+                        <hi>Lubricae ac per<g ref="char:EOLhyphen"/>plexae ſunt viae juven<g ref="char:EOLhyphen"/>tutis, non ſolum fra<g ref="char:EOLhyphen"/>gilitate lubricae aetatis prolabitur, ſedet ig<g ref="char:EOLhyphen"/>norantiâ mandatorum.</hi> Amb. ibid.</note> 
+                     <hi>Prov.</hi> 30.18<g ref="char:punc">▪</g> 
+                     <hi>There be three things which be too won<g ref="char:EOLhyphen"/>derfull, yea, four which I know not, the way of an Eagle in the air, of a Serpent upon a rock, the way of a Ship in the midſt of the ſea, and the ways of a Man in his Youth.</hi> Therefore <hi>David</hi> was fervent
+<pb n="43" facs="tcp:180530:28"/>in this prayer, <hi>Remember not the ſins of my Youth,</hi> Pſ. 25.7. What through the giddi<g ref="char:EOLhyphen"/>neſs and headineſs of that age and what through that ignorance which moſt com<g ref="char:EOLhyphen"/>monly attends it, it is exceedingly apt to run into error. What is the beſt means for a young man to cleanſe and direct his ways? why, <hi>by taking heed unto thy word.</hi> In the ſtrength of this it was, that <hi>Joſeph</hi> repulſed the down-right temptations of his lewd Miſtris; <hi>How ſhall I do this wick<g ref="char:EOLhyphen"/>edneſs and ſin againſt God. Gen.</hi> 39.9. It is this that gives the young man knowledge and diſcretion, <hi>Prov.</hi> 1.4.</p>
+               </div>
+               <div n="8" type="section">
+                  <head>
+                     <hi>Sect.</hi> 8.</head>
+                  <p>Knowledge when you have attained to it, puts an extraordinary luſtre and ho<g ref="char:EOLhyphen"/>nor upon you, and of all knowledge, this divine and ſaving knowledge moſt. All other knowledge is but blindneſs and ig<g ref="char:EOLhyphen"/>norance in compariſon of knowing Jeſus Chriſt and him crucified. Other know<g ref="char:EOLhyphen"/>ledge puffs up but the knowledge of the things of God, edifieth. In thoſe pla<g ref="char:EOLhyphen"/>ces before mentioned, where God com<g ref="char:EOLhyphen"/>manded them to teach their children his ſtatutes and his ways, he tells them that this ſhall be as front lets and brace<g ref="char:EOLhyphen"/>lets,
+<pb n="44" facs="tcp:180530:29"/>it ſhall be their greateſt ornament. This made <hi>David</hi> wiſer then his Teachers, <note place="margin">Pſal. 119.98, 99, 100.</note> then his Enemies, then his Antients, be<g ref="char:EOLhyphen"/>cauſe Gods Teſtimonies were his conti<g ref="char:EOLhyphen"/>nual ſtudy and meditation. What a ſweet ſavor did <hi>Joſiah</hi> leave behind him, who at eight years old knew the Lord, and walked in the ways of <hi>David</hi> his Fa<g ref="char:EOLhyphen"/>ther, <note place="margin">2 Kings 22, 23, chap.</note> entred into covenant with God, re<g ref="char:EOLhyphen"/>formed Religion, deſtroyed Idolatry, and turned not aſide, either to the right hand or to the left. <note place="margin">2 Tim. 3.14.</note> What an honor it was to <hi>Timothy</hi> that he was inſtructed in the Scriptures from a very child? <note place="margin">1 Kin. 18.12. <hi>Am</hi> 1. <hi>ubi ſupra.</hi>
+                     </note> To <hi>Obadiah,</hi> That he ſeared the Lord from his youth? to <hi>Valentinian</hi> the Emperor, that he was ſo good, at ſuch an age? How preci<g ref="char:EOLhyphen"/>ous are the memories of <hi>Edward</hi> the Sixt, <note place="margin">
+                        <hi>Vid.</hi> their lives.</note> and the young Lord <hi>Harrington</hi> upon this account? as wickedneſs in grey hairs is double iniquity, ſo piety in young men is double gilt; <hi>its like apples of gold in pictures of ſilver.</hi>
+                  </p>
+               </div>
+               <div n="9" type="section">
+                  <head>
+                     <hi>Sect.</hi> 9.</head>
+                  <p>Laſtly, You are growing up toward the having of children and families your ſelves how will you be able to teach them their duties <hi>then,</hi> if you be ignorant of your own
+<pb n="45" facs="tcp:180530:29"/>
+                     <hi>now?</hi> And here let me add to all that hath been ſaid before, that it is a ſad thing to ſee young people thruſting themſelves into the world, and taking upon them the government of Children and Families, who never yet had any acquaintance with God, nor know any thing of the Principles of Religion! who are uſually very ſollicitous what Portion they ſhall have, what Joynture they ſhall have, but never enquire what abilities they have to diſcharge the Duties of thoſe Family-relations which they are enga<g ref="char:EOLhyphen"/>ging to; theſe things never come into their thoughts. It was ſaid of <hi>Herod,</hi> that it was better being his Hog then his Child, which may be truly ſaid of ſuch perſons; They know how to feed their Hogs but not to breed their Children. Many men deal worſe with their Child<g ref="char:EOLhyphen"/>ren then they do with their Beaſts; they will be at any charge to have a Horſe ma<g ref="char:EOLhyphen"/>naged, a Dog or a Hawk well trained but not to have their Children taught. They would have a good Carter, a good Shep<g ref="char:EOLhyphen"/>heard, a good Bayliff, what wages ſoever they gave them; but any Schoolmaſter is good enough, if he be but cheap e<g ref="char:EOLhyphen"/>nough. Any drunken vitious Sot, ſhall
+<pb n="46" facs="tcp:180530:30"/>ſooner have their Children, and their good will, then the ſobreſt man and the beſt Schollar in the world, if he will teach, that is, undo them, but three pence cheaper.</p>
+                  <p>
+                     <hi>Diogenes</hi> was wont to ſay, That it was better be ſome mans ſheep then his Son: He will provide a good Shepheard for his ſheep, but cares not to whom he commits the tutelage of his Childe. One told <hi>Hyperides,</hi> an Orator of <hi>Greece</hi> that he had ſent his Son to travel, and had ſent one of his Slaves along with him to be his Governor and Tutor in his tra<g ref="char:EOLhyphen"/>vels; Its well done ſaid he, for now in<g ref="char:EOLhyphen"/>ſtead of one Slave thou ſhalt receive twain. Such another wiſe Wiggin, brought his Son to <hi>Ariſtippus,</hi> and de<g ref="char:EOLhyphen"/>manded of him what he ſhould give him to read Philoſophy to his Son: Why, ſaith he, you ſhall give me a hundred Crowns: O! ſaith the other, that will buy me a Slave; yes, anſwered <hi>Ariſtippus,</hi> ſo it may, and then thou maiſt have two Slaves, one whom thou haſt bought for thy Hun<g ref="char:EOLhyphen"/>dred Crowns, and another of thy Son, whom thou wilt not be at charge to have taught. To conclude, take heed, leſt by ruſhing into a married condition
+<pb n="47" facs="tcp:180530:30"/>without any ability or inclination to teach thoſe whom God hath given you, you bring out children for the deſtroy<g ref="char:EOLhyphen"/>er. In ſome Proteſtant Churches there are none permitted to be married, <note place="margin">Judic. Theol. Helvet. in yn Dor.</note> till they have firſt given their Miniſter an account of their knowledge of, and proficiency in the Doctrine of the Chriſtian Faith. <label type="milestone">
+                        <seg type="milestoneunit">Sect. </seg>15</label>[<hi>Sponſi non copulabuntur, niſi privatim paſtoribus, ſuos in Religione profectus ſatis comprobaverint.</hi> Act Syn. Nat. Dordrect. ſeſſ. 15. Sent. Theol. Haſſior. <hi>juxta fi<g ref="char:EOLhyphen"/>nem</hi>] this want of inſtruction makes many Parents deal with their Children, as the great Duke of <hi>Muſcovy</hi> deals with his Subjects, who will not ſuffer any of them to be inſtructed, <note place="margin">Heyl. Geog. in Ruſſia.</note> leaſt they ſhould be wiſer then himſelf<g ref="char:punc">▪</g> who are by this means bred up in ſuch lamentable igno<g ref="char:EOLhyphen"/>rance, that when they are asked any ſerious queſtion, ſatisfie themſelves in ſaying, <hi>God and our Great Duke can tell.</hi>
+                  </p>
+                  <p>But as <hi>Solomon</hi> ſays, <note place="margin">Eccleſ. 11.4.</note> 
+                     <hi>He that obſerveth the winde ſhall not ſow, and he that regar<g ref="char:EOLhyphen"/>deth the clouds ſhall not reap.</hi> 
+                     <note place="margin">Prov. 26.13.</note> 
+                     <hi>And the ſluggard crieth there is a Lion in the way.</hi> He that hath no mind to any work, will never want frivolous pretences and ex<g ref="char:EOLhyphen"/>cuſes,
+<pb n="48" facs="tcp:180530:31"/>to take him off. So in this caſe, ſome are apt to plead</p>
+                  <p>This is a new way, <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>1</label> what need this trouble now more then heretofore; our Fathers were not ſo ſtrictly held to learn, and yet they did well enough; God ſend us but to live and dye as well as our Fore-fathers, and we need care for no more.</p>
+                  <p n="1">1. <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>
+                     </label> No, This is no new way; We have this very <hi>name</hi> and <hi>thing, Catechiſing,</hi> frequently mentioned and preſt upon us in Scripture. <note place="margin">Pro. 22.6</note> 
+                     <hi>Train up a childe in his youth,</hi> 
+                     <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>
+                        <hi>Im<g ref="char:EOLhyphen"/>buere, do<g ref="char:EOLhyphen"/>cere, pri<g ref="char:EOLhyphen"/>ma docu<g ref="char:EOLhyphen"/>menta da<g ref="char:EOLhyphen"/>re paula<g ref="char:EOLhyphen"/>tim &amp; paulatim, ut ferri poſſit.</hi> Rab. Dav. in lib. Rad. Hence <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, with them, ſignifies, <hi>Chatecheſis, chatechiſmus, rudimenta, initiatio.</hi> Mercer in Pagnin.</note> 
+                     <hi>and in his age he ſhall not depart from it. Train up</hi> the word is <hi>Cate<g ref="char:EOLhyphen"/>chiſe,</hi> as the margin of our Bibles ren<g ref="char:EOLhyphen"/>ders it. Teach a childe, according to his way, or in ſuch a way and manner as he is capable to bear, that is, by little and little.</p>
+                  <p>A word very uſual alſo in the New Te<g ref="char:EOLhyphen"/>ſtament, <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>. <hi>Steph. in verb.</hi> 
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>.</note> 
+                     <hi>Luk.</hi> 1.4. <hi>That thou mighteſt know the certainty of thoſe things wherein thou haſt been inſtructed,</hi> or catechiſed. <hi>Act.</hi> 18.25. <hi>This man</hi> (Apollos) <hi>was inſtructed in the
+<pb n="49" facs="tcp:180530:31"/>way of the Lord.</hi> 1 Cor. 14.19. <hi>That I may iuſtruct others.</hi> And many other Texts too tedious to recite; in all which places it peculiarly ſignifies to teach the Principles and fundamentals of Chriſtian Religion (by word of mouth) and there<g ref="char:EOLhyphen"/>fore this is no new thing. It was a con<g ref="char:EOLhyphen"/>ſtant practice in the primitive times, who had their Chatechiſts, and their Chatechumens; thoſe whoſe office it was to inſtruct them who were newly con<g ref="char:EOLhyphen"/>verted, and but raw in the Faith. <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>. <hi>Ma<g ref="char:EOLhyphen"/>giſt. Hier. de ſcript. Eccleſ.</hi>
+                     </note> 
+                     <hi>Cle<g ref="char:EOLhyphen"/>mens Alexandrinus</hi> (to paſs by others) who lived near to the Apoſtles, was a Chatechiſt in the Church of <hi>Alexandria,</hi> and upon this occaſion wrote his <hi>Poeda<g ref="char:EOLhyphen"/>gogus:</hi> Their peculiar office was to in<g ref="char:EOLhyphen"/>ſtruct young Chriſtians in the Articles of the Chriſtian Faith, and grounds of Re<g ref="char:EOLhyphen"/>ligion, until they were fit to partake of thoſe heavenly myſteries in the Lords Supper. The Liturgy of our Church in<g ref="char:EOLhyphen"/>joyned that all ſhould be inſtructed in the Faith, and able to give an account of it before they were admitted to the Lords Table.</p>
+                  <p n="2">2 And for your Fore-fathers; what if they lived and died in ignorance, doth that make ignorance the more excuſable
+<pb n="50" facs="tcp:180530:32"/>or commendable? If they were ſaved, I dare boldly ſay, that it was not their ig<g ref="char:EOLhyphen"/>norance that ſaved them; if they periſhed through ignorance, have you ſuch an o<g ref="char:EOLhyphen"/>pinion of, and love to them and their example, that you are willing to go to hell with them for company? This were to do, as I read, that <hi>Roboald,</hi> once a King in <hi>Weſt-Freezland</hi> did, <note place="margin">Heyl. Geog. Eaſt-freizl. in Germ.</note> who being overcome by <hi>Charls</hi> the Great, was per<g ref="char:EOLhyphen"/>ſwaded by him to receive the Chriſtian Faith, and the Sacrament of Baptiſm; But being told that his Friends and Kinſ<g ref="char:EOLhyphen"/>folks were in Hell, becauſe they were no Chriſtians; neither will I (ſaid he) be of that profeſſion, for I love to be among my Kindred. How wiſely he reſolved, I leave you to judge.</p>
+                  <p>
+                     <hi>Object.</hi> 2. But I am ignorant, and cannot anſwer.</p>
+                  <p>
+                     <hi>Anſw.</hi> You had the more need to learn; the moſt learned was ignorant, until he were taught: Ignorance is the high road to ruine; and to refuſe in<g ref="char:EOLhyphen"/>ſtruction is not the way to cure your ignorance, but to continue and en<g ref="char:EOLhyphen"/>creaſe it.</p>
+                  <p>
+                     <hi>Object.</hi> 3. I am aſhamed.</p>
+                  <p>
+                     <hi>Anſw.</hi> You ſhould never be aſhamed
+<pb n="51" facs="tcp:180530:32"/>of doing that which God requires; you ſhould be aſhamed of nothing but ſin; are you aſhamed to be good? are you not aſhamed to be called a Chriſtian, and will you be aſhamed to learn what Chriſt is, and what he hath done for your ſoul? Are you aſhamed to follow the examples of all Chriſtians of all ages? will you be aſhamed to go to heaven? <note place="margin">Matt. <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> 38.</note> remember what it is to be aſhamed of Chriſt and his ways; are you not aſhamed of your fil<g ref="char:EOLhyphen"/>thy ignorance, and will you be aſhamed to uſe the means to cure it. But yet where there is an unconquerable baſhful<g ref="char:EOLhyphen"/>neſs (which yet in this caſe ſhould be la<g ref="char:EOLhyphen"/>boured againſt) there may be means found to inſtruct ſuch in a leſs publique way.</p>
+                  <p>
+                     <hi>Object</hi> 4. But Catechiſing is for chil<g ref="char:EOLhyphen"/>dren; we are grown up to be of mens and womens eſtate</p>
+                  <p>
+                     <hi>Anſw.</hi> If you have not yet learned, it is more then time to begin now. Your age is no preſciption againſt a duty that God requires: You ſhould rather be<g ref="char:EOLhyphen"/>moan your miſpent youth, and redeem your loſt time, then plead it in Bar againſt your future knowledge; do you ever intend to learn or no? if not, you will
+<pb n="52" facs="tcp:180530:33"/>unavoidably periſh in your ignorance; if you do, then begin while you have time and opportunities and means offered you. There be children in underſtanding as well as children in age, and thoſe need inſtruction as well, <note place="margin">
+                        <hi>Muſcul. in Pſ.</hi> 19.7.</note> or rather more then theſe. Of old, not young children onely, but thoſe of riper years, if igno<g ref="char:EOLhyphen"/>rant, were to be catechiſed. In thoſe places before inſtanced, they that were able to ask a reaſon of every piece of Gods ſervice, were to be inſtructed, and theſe were paſt children. The (Chatechu<g ref="char:EOLhyphen"/>mens) or perſons to be catechiſed, men<g ref="char:EOLhyphen"/>tioned above, were all ſuch as were con<g ref="char:EOLhyphen"/>verted to the faith, whether young or old, in which form they continued till they were fully inſtructed in Chriſtian Religion, and fitted for the higheſt Or<g ref="char:EOLhyphen"/>dinances.</p>
+                  <p>
+                     <hi>Object.</hi> But what is this but to teach children by roat (like Parots) what they do not underſtand.</p>
+                  <p>
+                     <hi>Anſw.</hi> It is not the bare ſaying of a Catechiſm by heart, but the underſtand<g ref="char:EOLhyphen"/>ing it, that we mainly drive at; we ſhall labor to make them underſtand it as far as they are capable; though ſome may not be able to underſtand it, others are<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <pb n="53" facs="tcp:180530:33"/>2. Though they, who are very young, can but ſay it, yet as age and diſcretion come on, they will increaſe in knowledg. He that now onely learned, may come in a little time to underſtand the meaning on't: But he will never underſtand, who never learned. There he ſome terms of Art, in all Sciences, which the learner muſt get, though he underſtand them not; when he comes to make uſe of them, then he will underſtand them.</p>
+                  <p>
+                     <hi>Object</hi> 6. What is this, but to take Gods work out of his hand, whoſe work it is to teach, and who hath promiſed that in Goſpel times, we <hi>ſhall be all taught of God.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> God in this, as uſually in o<g ref="char:EOLhyphen"/>ther things, works by means; he teaches us by the Miniſtery of men. This reaſon is as much againſt Preaching as Cate<g ref="char:EOLhyphen"/>chizing. We might expect ſuch an Ob<g ref="char:EOLhyphen"/>jection from ſuper-Ordinance men, and to them we would ſuit another Anſwer: But not from them who acknowledge Gods Ordinances; thoſe who are taught by Gods Miniſters, according to Gods Commands, Rules, and Directions, thoſe God teaches. We take not Gods work out of his hand, but (like his Uſhers) we
+<pb n="54" facs="tcp:180530:34"/>teach under him and or him. By this time (I hope) you that are Parents and Maſters, ſee the conveniency, excellency, and neceſ<g ref="char:EOLhyphen"/>ſity, of inſtructing your Families; and Chil<g ref="char:EOLhyphen"/>dren, and Servants ſee that it is their duty, and for their great advantage to learn.</p>
+                  <p>I come now to the laſt ſtage of my in<g ref="char:EOLhyphen"/>tended journey upon this ſubject, <note n="3" place="margin">Branch of Ex<g ref="char:EOLhyphen"/>hortati<g ref="char:EOLhyphen"/>on.</note> which is to preſs all ſorts of people, of what age or degree ſoever, to a chearful ſubmiſſion to this neceſſary work of inſtruction in the fundamentals of Religion. Not that I intend the bringing of the aged to pub<g ref="char:EOLhyphen"/>lick Catechizing (though I ſhall ſhew you anon what the Reformed Churches think fit in this caſe) but that they would ſubmit to private perſonal inſtruction in the points which be neceſſarily to be known for their ſalvation. I eaſily fore<g ref="char:EOLhyphen"/>ſee the difficulty of the work which I have in hand, againſt which fleſh and blood will undoubtedly make head.</p>
+                  <p>For firſt, there is naturally a willing<g ref="char:EOLhyphen"/>neſs in mens hearts to conceal their mi<g ref="char:EOLhyphen"/>ſerable ignorance, whereof they would not be thought guilty: We deſire to hide our ſpiritual defects as well as our natural ones. The ignorant as well as the pro<g ref="char:EOLhyphen"/>phane,
+<pb n="55" facs="tcp:180530:34"/>hates the light that he may not be diſcovered.</p>
+                  <p>Secondly, We ſhall meet with the hor<g ref="char:EOLhyphen"/>rid pride (which too often accompanies ſuch black ignorance) of thoſe who think themſelves too wiſe to learn; of whom I may ſay, as it was ſaid of others in the like caſe; they might have attain<g ref="char:EOLhyphen"/>ed to a good ſtock of knowledge, if they had not thought themſelves wiſe enough too ſoon. There is no greater enemy to knowledge, then preſuming ignorance; <note place="margin">
+                        <hi>Multi ad ſapientiae veſtigium perveniſ<g ref="char:EOLhyphen"/>ſent, niſi ſe jam perveniſſe putaſſent.</hi> Plin.</note> Pride and ſelf conceit bar the door a<g ref="char:EOLhyphen"/>gainſt inſtruction: Thoſe who think themſelves rich, and increaſed with goods, and have need of nothing, when they are poor, and naked, and miſerable, are hardlieſt convinced of their ſad con<g ref="char:EOLhyphen"/>dition, <hi>Rev.</hi> 3.17. <hi>Iſa.</hi> 47.10. <hi>Prov.</hi> 12.1.</p>
+                  <p>Thirdly, The Devil will never be wanting with all hi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> skill, malice and in<g ref="char:EOLhyphen"/>tereſt, to divert or binder a work ſo di<g ref="char:EOLhyphen"/>rectly tending to the overthrow of his Kingdom. We have an eſſay of his good will to works of this nature, <hi>Acts</hi> 19 <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>8, 20, 21. when the word of God began to be manifeſted, and to prevail with ſome to bring them out of his power, he ſurs up <hi>Demetrius,</hi> who put the people in an
+<pb n="56" facs="tcp:180530:35"/>uproar againſt <hi>Paul;</hi> where, had not pro<g ref="char:EOLhyphen"/>vidence diverted their fury, he might have been torn to pieces amongſt them. What between theſe ſeveral oppoſitions, which we eaſily forecaſt, and others which we cannot ſo readily ſee, we may ſay as <hi>Paul</hi> did, that we wreſtle not a<g ref="char:EOLhyphen"/>gainſt fleſh and blood, but againſt Prin<g ref="char:EOLhyphen"/>cipalities, <hi>&amp;c.</hi> But be the oppoſition what it will, Gods mind muſt not be con<g ref="char:EOLhyphen"/>cealed, nor our duties undiſcovered, for fear of diſpleaſing the Devil and his Par<g ref="char:EOLhyphen"/>tizans. If it appear not to be Gods mind, we leave you to your liberty: but if it be, then whether you will hear, or whether you will forbear, we muſt lay it before you. And I hope that God will ſo effectually convince you of your du<g ref="char:EOLhyphen"/>ties in this particular, that none ſhall be able to open his mouth againſt it, nor refuſe it, unleſs it be ſuch as apprehend not the benefit of it, or wilfully ſhut their eyes againſt the clear light of Scrip<g ref="char:EOLhyphen"/>ture.</p>
+                  <p>To ſuch I ſhall onely propoſe theſe in<g ref="char:EOLhyphen"/>ſuing conſiderations, which by Gods grace, may ſerve to quicken them to their Duty.</p>
+               </div>
+            </div>
+            <div type="part">
+               <pb n="57" facs="tcp:180530:35"/>
+               <div n="1" type="section">
+                  <head>
+                     <hi>Sect.</hi> 1.</head>
+                  <p>Ignorance is a damning ſin in all the mind without knowledge is not good it darkens the underſtanding, <note place="margin">Prov. 19.2. Eph. 4.18. Iſa. 5.13. Hoſ. 4.1. Job 21.14.</note> and alienates from the life of God; this is one main ground of Gods controverſie againſt a Land, when they have no knowledge. It is a character of the worſt of men, not to deſire the knowledge of his ways: But it is much worſe in aged perſons, who have had more time and opportuni<g ref="char:EOLhyphen"/>ties to learn. <note place="margin">Job 32.7, 9.</note> 
+                     <hi>Days ſhould ſpeak<g ref="char:punc">▪</g> and the multitude of years ſhould teach wiſdom;</hi> and it is a reproach when the aged do not underſtand. <note place="margin">Deut. 32.7. 1 Cor. 14.20.</note> At your mouths the younger ſort ſhould enquire for inſtruction, and if you be ignorant what do they but enquire of an Idol that hath a mouth and ſpeaks not? St. <note place="margin">1 Epiſt. 2.13.</note> 
+                     <hi>John</hi> preſumes that thoſe who are of riper years underſtand the myſteries of Religion; <hi>I have writ<g ref="char:EOLhyphen"/>ten to you Fathers, becauſe ye have knewn him that was from the beginning.</hi> You look for reverence becauſe of your age, <note place="margin">Prov. 16.31.</note> but gray hairs are an honor only in the way of righteouſneſs, otherwiſe they are a reproach to you; <note place="margin">Eccleſ. 4.13.</note> for a poor and wiſe child is better then an old and fooliſh
+<pb n="58" facs="tcp:180530:36"/>King that will not be admoniſhed. The Son of <hi>Syrach</hi> hath an excellent ſaying to this purpoſe; though the Book be A<g ref="char:EOLhyphen"/>pocriphal, <note place="margin">Eccleſ. 25.4, 5, 6.</note> the words are Canonical, <hi>If thou haſt gathered nothing in thy youth, how canſt thou find any thing in thine age. Oh! how comely a thing is judgement for gray hairs, and for antient men to know counſel? Oh! how comely is the wiſdom of old men, and underſtanding and counſel to men of honor? Much experience is the crown of old men, and the fear of God is their glory.</hi> What a ſhame is it for men to have ſpent the greateſt part of their time, and not know the end for which they were made, nor (but by roat) who made them? What an incongruous thing it is, to profeſs an expectation of ſalvati<g ref="char:EOLhyphen"/>on by Chriſt at your approaching death, when you can give no account who that Chriſt is, or what he hath done for you more then any other hath done? To pro<g ref="char:EOLhyphen"/>feſs your ſelves Chriſtians, and reſolved to die in the Chriſtian Faith, and yet to live and die in an utter ignorance of him, and of the ſaving benefits of his death? What a ſhame would it be to ſee your ſelves out-done by your children, who in a little time will be able (through Gods
+<pb n="59" facs="tcp:180530:36"/>bleſſing) to give a better account of their Faith and Hope then you can, unleſs you (who are yet ignorant) will be willing to be taught. Wiſdom crieth after you, and upbraids you with your aged igno<g ref="char:EOLhyphen"/>rance, <note place="margin">Prov. 1.21.</note> 
+                     <hi>How long yee ſimple ones will ye love ſimplicity, and the ſcorners delight in their ſcorning, and fools hate knowledge?</hi>
+                  </p>
+               </div>
+               <div n="2" type="section">
+                  <head>
+                     <hi>Sect.</hi> 2.</head>
+                  <p>You have reaſon to expect but little time more before you are called to your great account; you have but a little time more to learn in. Young men <hi>may</hi> die, old men <hi>must.</hi> You have one foot in the grave already; much of your ſand is run, your day is far ſpent, your ſun draws low, and is near to ſetting. You muſt not expect your ſhadow to go back; <note place="margin">2 Kings 20.11.</note> as once it did on the Dial of <hi>Ahaz;</hi> nor your ſun to ſtand ſtill, as that in the fir<g ref="char:EOLhyphen"/>mament did in the days of <hi>Joſhua.</hi> 
+                     <note place="margin">Joſh. 10.12, 13.</note> He who hath trifled out the morning, had need to mend his pace in the afternoon, if he would compaſs his journey with ſe<g ref="char:EOLhyphen"/>curity and comfort. Walk apace while your light laſteth; work hard while you have day, <note place="margin">Joh. 19.4. Eccleſ. 9.10.</note> 
+                     <hi>for the night comes when no man can work. Whatſoever thine hand findeth
+<pb n="60" facs="tcp:180530:37"/>to do, do it with all thy might, for there is no work, nor knowledge, nor aevice in the grave whether thou art going.</hi> Now is the ſeaſon of getting the oyl of ſaving know<g ref="char:EOLhyphen"/>ledge into thy veſſel, if thou wouldſt have thy lamp ſhine, when the Bridegroom cometh. <note place="margin">Mat. 25. Job 36.12 <hi>v. Merc. in loc.</hi>
+                     </note> He that openeth his ears to diſci<g ref="char:EOLhyphen"/>pline ſhall ſpend his years in proſperity, but he that will not hear (and obey) ſhall fall by the ſword (<hi>i.e.</hi> miſerably) and ſhall dye without knowledge: Thoſe who af<g ref="char:EOLhyphen"/>fect ignorance, ignorance ſhall be their ruine. It's a heavy curſe when God gives up them who refuſe inſtruction, to dye without knowledge. Above all take heed of putting off this buſineſs to a further time; <note place="margin">Parce tempori. Stoicorum praecept.</note> Gods time is the preſent time. <hi>To day if you will hear my voyce</hi> Its good doing Gods work in Gods time. Procra<g ref="char:EOLhyphen"/>ſtination and putting off our duties to another day, <note place="margin">Procra<g ref="char:EOLhyphen"/>ſtinatio ſemper luctatur cum dam<g ref="char:EOLhyphen"/>nis.</note> is the great bane of ſouls. Many reſolve to learn what's needful for ſalvation, and to do what's needful to be done, but hereafter: at preſent they have ſome other ſmal occaſions, to <hi>morrow</hi> is a new day, <note place="margin">
+                        <hi>Cras hoc fiet, Idem cras fiet; jam cras heſternum heu! confumpſimus; ecce aliud cras, egerit hos annos.</hi> Perſius.</note> they have time enough be<g ref="char:EOLhyphen"/>fore them. O but deceive not thy ſoul,
+<pb n="61" facs="tcp:180530:37"/>with a falſe account; to day is thine, to morrow is not. Wilt thou miſpend that time which thou haſt, and diſpoſe of that which thou mayſt never live to ſee? Thou mayſt be dead before to morrow, or if thou live, yet thou wilt be putting off the work till to morrow ſtill: to mor<g ref="char:EOLhyphen"/>row hath no end; every day hath a mor<g ref="char:EOLhyphen"/>row behinde it, whither, when we have caught the trick on't, we ſhall caſt all our buſineſs. He that puts off his buſi<g ref="char:EOLhyphen"/>neſs till to morrow, will ever come a day behinde his work: <note place="margin">
+                        <p>
+                           <hi>Fruſtra ſectabere canthum.</hi>
+                        </p>
+                        <p>
+                           <hi>Cum rota ſuperi<g ref="char:EOLhyphen"/>or curras &amp; inane ſecundo.</hi> id. at. 5.</p>
+                     </note> as the hinder wheel of the Coach, though it moves as faſt as the former, yet it never catches him, it is behinde ſtill: There is no greater impediment to a good life, then neglecting the preſent ſeaſons, to reſolve what we will do to morrow. Delays do not onely loſe time, but render us more unfit every day then other for our work. If to morrow be a convenient time, how much more to day, that thou mayſt go on to morrow, and not while it off to the third day. [<gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>&amp;c. Arrian. Epict. l.</hi> 4 <hi>c.</hi> 1.2. <hi>in fine]</hi>
+                  </p>
+               </div>
+               <div n="3" type="section">
+                  <pb n="62" facs="tcp:180530:38"/>
+                  <head>
+                     <hi>Sect.</hi> 3.</head>
+                  <p>The beſt Chriſtians are capable of im<g ref="char:EOLhyphen"/>provement. I am well aſſured that there are divers amongſt you who are (in your proportions) well inſtructed to the King<g ref="char:EOLhyphen"/>dom of heaven, who are grown men in Chriſt, and able to render a good ac<g ref="char:EOLhyphen"/>count of the hope that is in you, yet ſuch ought not to withdraw themſelves from this neceſſary work.</p>
+                  <p n="1">1. Becauſe your withdrawing would be a pretence for thoſe to refuſe, who have moſt need of inſtruction. Others will pretend to that knowledge which they have not, when they ſee that your knowledge is an excuſe for not ſubmit<g ref="char:EOLhyphen"/>ting your ſelves to Gods ways</p>
+                  <p n="2">2. Of all men you have leaſt reaſon to refuſe it; of all Schollars they ſhould be ready to ſtand forth to trial, who are beſt able to give an account of the ſpending of their time. It is the Banck<g ref="char:EOLhyphen"/>rupt onely who is afraid of having his e<g ref="char:EOLhyphen"/>ſtate looked into.</p>
+                  <p n="3">3. He that hath moſt knowledge, hath yet many things to learn. There is a growth, <note place="margin">2 Pet. 3.18.</note> as in Grace, ſo in the know<g ref="char:EOLhyphen"/>ledge of our Lord and Saviour Jeſus
+<pb n="63" facs="tcp:180530:38"/>Chriſt. <note place="margin">2 Tim. 3.15. 1 Tim. 4.15.</note> Though <hi>Timothy</hi> was inſtructed in the Scriptures from his very youth, yet he was to give attendance to reading and meditation, and to continue in ſo do<g ref="char:EOLhyphen"/>ing, that his profiting might appear to all. In the Scriptures, a Lamb may wade, and an Elephant may ſwim. <note place="margin">Heb. 5.12.</note> There is meat for ſtrong men, as well as milk for Babes. There be ſome eaſier truths for the leſs learned, and ſome harder to ex<g ref="char:EOLhyphen"/>erciſe the underſtanding of more know<g ref="char:EOLhyphen"/>ing men. <note place="margin">Eph. 2.22. Heb. 6.1.</note> Our Chriſtian Faith is a ſpiri<g ref="char:EOLhyphen"/>tual building, where it is not enough to lay a good foundation, <note place="margin">1 Theſſ. 3.10.</note> but to go on to perfection. The ſaith of the <hi>Theſſalo<g ref="char:EOLhyphen"/>nians</hi> was ſuch, that it was a great ſup<g ref="char:EOLhyphen"/>port to <hi>Paul</hi> in his afflictions; but yet there was ſomething lacking in their faith, which he deſired to ſupply by per<g ref="char:EOLhyphen"/>ſonal inſtruction.</p>
+                  <p>But ſuppoſe your knowledg to be more then it is, yet you may want quickening and livelineſs to the exerciſe of your knowledge; <hi>Iron ſharpens iron,</hi> 
+                     <note place="margin">Prov. 27.17.</note> 
+                     <hi>and the coun<g ref="char:EOLhyphen"/>tenance of a man his friend;</hi> as by whet<g ref="char:EOLhyphen"/>ting one iron againſt another, that which was dull gets a better edge: So by familiar and friendly conference (eſpecially with thoſe whoſe knowledge is greater) your
+<pb n="64" facs="tcp:180530:39"/>parts grow more vigorous and active. The learnedeſt men may gain much by diſcourſe and imparting themſelves, one to another, if they could not add to one anothers knowledge, yet they may warm one anothers hearts. Holy con<g ref="char:EOLhyphen"/>ference is a great improvement both of parts and piety: Every Chriſtians experi<g ref="char:EOLhyphen"/>ence may (I preſume) ſeal this truth, we often meet with good old Chriſtians, whom, though we be able to teach, yet we have from them ſome ſuch ſavory ex reſſions as much affect our hearts, and quicken us to our Duties. There be many advantages which an humble Chri<g ref="char:EOLhyphen"/>ſtian may gain by his frequent and fami<g ref="char:EOLhyphen"/>liar diſcourſes with his faithful Paſtor, beſides the encreaſe of his knowledge, which yet is no ſmall nor contemptible benefit. <note place="margin">Act. 18.24, 26.</note> 
+                     <hi>Apollos</hi> himſelf, though mighty in the Scriptures learnt much by confer<g ref="char:EOLhyphen"/>ence with <hi>Aquila</hi> and <hi>Priſcida.</hi>
+                  </p>
+               </div>
+               <div n="4" type="section">
+                  <head>
+                     <hi>Sect.</hi> 4.</head>
+                  <p>There be very many duties which God require of you in your particular ſtandings and relations, which you are altogether unable to diſcharge, till you be throughly inſtructed in the buſineſs
+<pb n="65" facs="tcp:180530:39"/>of Religion. Your ſeveral Relations into which God hath caſt you, have their ſeveral Duties to which you are ob<g ref="char:EOLhyphen"/>liged.</p>
+                  <p>In your Families you are Husbands, Wives Parents, Maſters and to the diſ<g ref="char:EOLhyphen"/>charge of every one of theſe Relations aright, there is need of much holy skill. Prophane perſons never heed it, igno<g ref="char:EOLhyphen"/>rant perſons cannot perform it; they can neither pray with them, nor for them, nor inſtruct, nor correct them according to the mind of God, which they are ig<g ref="char:EOLhyphen"/>norant of.</p>
+                  <p>As you are members of civill Socie<g ref="char:EOLhyphen"/>ties you have Duties to perform, which you can never do aright, till you do them upon Scripture grounds, <note place="margin">Ro. 13 5.</note> and have learn<g ref="char:EOLhyphen"/>ed to obey for conſcience ſake.</p>
+                  <p>As you are members of a Church, and are in Brotherly communion with others; <note place="margin">Mat. 18.15.</note> there be duties too of admoni<g ref="char:EOLhyphen"/>tion, inſtruction, exhortation, <hi>&amp;c.</hi> which will ſeem uncouth, and be unfeaſable till your mind be enlightned, and your hearts warmed with this heavenly knowledge. Men may make a great noiſe and flouriſh in the world, who have really little or no worth in them. But the true trial of a
+<pb n="66" facs="tcp:180530:40"/>Chriſtians excellency conſiſts much in the faithful diſcharge of the duties of his particular Calling and Relations.</p>
+               </div>
+               <div n="5" type="section">
+                  <head>
+                     <hi>Sect.</hi> 5.</head>
+                  <p>Chriſtians are bound to this mutual and reciprocal act of teaching and ex<g ref="char:EOLhyphen"/>horting one another, <note place="margin">1 Theſſ. 5.11: Heb. 3.13 Heb. 10.25.</note> of building up one another in the faith of the Goſpel; as you are bound to inſtruct and exhort others ſo to ſubmit to the inſtruction and admonition of others (though private Chriſtians) how much more ſhould you be ready to learn of thoſe who are ſet over you in things appertaining to your ſouls, and admoniſh you, whom you ought highly to prize for their works ſake The Apoſtle urges this argument in that 1 <hi>Theſſ.</hi> 5 12, 13.</p>
+               </div>
+               <div n="6" type="section">
+                  <head>
+                     <hi>Sect.</hi> 6.</head>
+                  <p>You are bound to render a reaſon of the hope that is in you, <note place="margin">1 Pet. 3.15.</note> to every one that asks it; Not that it is expected that every Chriſtian be able to give an exact account of every article of Faith, and of all the ſubtilties that are about it: or that he is bound at all times, in all places, in all companies, upon all occaſions to
+<pb n="67" facs="tcp:180530:40"/>give an account of his faith and hope to every captious Queſtioniſt; But when he is fairly called thereunto, and the glory of God, and the good (and con<g ref="char:EOLhyphen"/>firmation) of his Brethren requires it. In ſuch caſes, <note place="margin">Luk. 12.8, 9.</note> he ought boldly to make profeſſion of his Faith, and to defend it by all the arguments he can, though it ſhould bring him into trouble. How much more ready ſhould you be to do it, <note place="margin">Act. 19.8</note> to thoſe who enquire into your faith, not to betray, nor perſecute you, but to inſtruct, eſtabliſh, confirme you, and to ſupply what is lacking in your Faith.</p>
+               </div>
+               <div n="7" type="section">
+                  <head>
+                     <hi>Sect.</hi> 7.</head>
+                  <p>The want of this is the reaſon why we have ſo many titular Chriſtians, who en<g ref="char:EOLhyphen"/>joy the name of Chriſtians; but are utter<g ref="char:EOLhyphen"/>ly ignorant of the myſtery of godlineſs, it is an unſeemly and unwor<g ref="char:EOLhyphen"/>thy thing, <note place="margin">
+                        <hi>Indigniſſimum eſt ſi ejus neſciamus le<g ref="char:EOLhyphen"/>ges &amp; placita cu<g ref="char:EOLhyphen"/>jus tamen nomine &amp; profeſſione cenſe<g ref="char:EOLhyphen"/>mur.</hi> Bulling. in 1 Pet. 3.5</note> that we ſhould be ignorant of his Laws and Or<g ref="char:EOLhyphen"/>dinances whoſe Diſciples we would be reckoned. I ſhall give you my meaning in the words of a late learned Mini<g ref="char:EOLhyphen"/>ſter of our own, now with God; who
+<pb n="68" facs="tcp:180530:41"/>having admired Gods goodneſs in giving <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> the glorious Goſpel, <note place="margin">
+                        <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap>. 48. to 55.</note> which hath now ſo long ſhone ſo clearly amongſt us, goes on to bewail, that after ſuch rich injoyments of the means of knowledge, there ſhould be ſo many thouſands a<g ref="char:EOLhyphen"/>mongſt us, who being askt a reaſon of the hope that is in them, cannot ſpeak tollerable ſenſe, why they are Chriſtians rather then profeſſed Infidels: That there ſhould be whole Pariſhes who cannot afford one wiſe word toward the defence of our moſt holy Profeſſion; that many who will take it very ill if they be not ac<g ref="char:EOLhyphen"/>counted as good Chriſtians as the beſt, ſhould think no otherways of Chriſt then ſome do of St. <hi>Patrick,</hi> and S. <hi>David,</hi> and o<g ref="char:EOLhyphen"/>ther of the Saints of their own Countries. He goes on to bemoan that diſmal fog of Popery, which doth yet darken this Iſland; Popery which few men think of, <hi>viz.</hi> that blind, abſurd, implicite Faith of believing as the Church believes. There is not (ſaith he) a pin to chuſe between him that believes in groſs what the Church of <hi>England</hi> beleives; and him that beleives as the Synagogue of Satan, the Church of <hi>Rome</hi> believes, if neither know any thing explicitly what either
+<pb n="69" facs="tcp:180530:41"/>Church believes. And concludes to our preſent purpoſe, I ſee no hope but the <hi>Colliers</hi> Faith will have the greateſt num<g ref="char:EOLhyphen"/>ber of Profeſſors, whilſt <hi>accurate Cate<g ref="char:EOLhyphen"/>chiſing of all ſorts of people,</hi> which did ſo much good in the <note n="*" place="margin">
+                        <hi>Cognitio &amp; ſcien<g ref="char:EOLhyphen"/>tia Chri<g ref="char:EOLhyphen"/>sti &amp; Evangelii olim Chriſtiano populo multo perſpectior fuit quàm hodie.</hi> Id. ut ſupra.</note> 
+                     <hi>Primitive times</hi> is ſo <hi>generally neglected.</hi>
+                  </p>
+               </div>
+               <div n="8" type="section">
+                  <head>
+                     <hi>Sect.</hi> 8.</head>
+                  <p>You cannot with any colour of reaſon expect to be made partakers of the ſeal<g ref="char:EOLhyphen"/>ing Ordinances without knowledge; this is one main thing wherein the trial of your fitneſs is to be made, whether or no you diſcern the Lords body. If you eat and drink without knowledge, you eat it undiſcerningly <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> if you eat un<g ref="char:EOLhyphen"/>diſcerningly, you eat unworthily; and if you eat unworthily, <note place="margin">1 Cor. 11.</note> you eat and drink your own damnation. In the Synod of <hi>Dort</hi> it was thought fit, that all that brought their children to baptiſm, <note place="margin">
+                        <hi>Non ad<g ref="char:EOLhyphen"/>mittitur teſtis Bap<g ref="char:EOLhyphen"/>tiſmi,</hi> &amp;c.</note> ſhould give an account of their faith and know<g ref="char:EOLhyphen"/>ledg, before their children were baptized, and that none ſhould be a witneſs at the baptizing of an Infant, who were not firſt examined concerning the nature of that Sacrament, and the Office and Du<g ref="char:EOLhyphen"/>ty
+<pb n="70" facs="tcp:180530:42"/>of a Witneſs. And for the Sacrament of the Lords Supper, they judge that none ſhould be admitted to it, but thoſe who firſt make a publique profeſſion of their Faith before the whole Congrega<g ref="char:EOLhyphen"/>tion. [<hi>Ad coenae Dominicae uſum, nemo admittetur, niſi qui Doctrinam Chateche<g ref="char:EOLhyphen"/>ticam probe teneat<g ref="char:punc">▪</g> &amp; fidei ſuae rationem coram totâ Eccl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſiâ publice reddat.</hi> Ju<g ref="char:EOLhyphen"/>dic: Haſſio. Theol:] Our Liturgy en<g ref="char:EOLhyphen"/>joyned, not onely Parents and Maſters to cauſe their Children, Servants and Ap<g ref="char:EOLhyphen"/>prentices, to attend d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ligently and obe<g ref="char:EOLhyphen"/>diently upon publique Catechizing, until they had learned the Catechiſm appoint<g ref="char:EOLhyphen"/>ed; <note place="margin">Rubrick for Con<g ref="char:EOLhyphen"/>firm.</note> but alſo ſtrictly forbids to admit any to the Commu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ion, until ſuch time as they could ſay the Catechiſm, and were confirmed. Ignorance as well as ſcandal was ever reckoned a bar ſufficient to keep from the Sacrament.</p>
+               </div>
+               <div n="9" type="section">
+                  <head>
+                     <hi>Sect.</hi> 9.</head>
+                  <p>Miniſters are to take care of <hi>all</hi> the flock, <note place="margin">Act. 20.28.</note> over which God hath made them overſeers; Elder people are either mem<g ref="char:EOLhyphen"/>bers of the ſeveral flocks or no; if not, then theſe are as ſheep without a ſhep<g ref="char:EOLhyphen"/>heard; if ſo, then they are not to exempt themſelves from that care which we are
+<pb n="71" facs="tcp:180530:42"/>obliged to take of the whole flock. The ſheep which withdraw themſelves from their ſhepheards care, are manifeſtly ex<g ref="char:EOLhyphen"/>poſed to the worrying of the ravening Wolf.</p>
+               </div>
+               <div n="10" type="section">
+                  <head>
+                     <hi>Sect.</hi> 10</head>
+                  <p>Miniſters are to give an account to God for their people; <note place="margin">Heb. 13.27.</note> which when I ſeriouſly conſider, I profeſs my ſinews are looſened, and my joynts tremble, to think what an account we have to make to God. I have ſometimes won<g ref="char:EOLhyphen"/>dered at the ſelf-denying modeſty of thoſe times, when <hi>Gregory<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Naziene<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Ambroſe,</hi> 
+                     <note place="margin">In their Lives printed before their Works.</note> and others, being called to be Biſhops, hid themſelves, and fled away from ſuch high imployment. But when I ſadly con<g ref="char:EOLhyphen"/>ſider the weight of the Miniſterial im<g ref="char:EOLhyphen"/>ployment, and the account that muſt be given to God for the flock, I wonder that more do not flie from it. And if they muſt give an account to God for you, it is but reaſonable that they take an account of you. God hath made us Stewards in his houſe, it is a great honor, but withal a great truſt. If a Noble man will exact an account of all the bu<g ref="char:EOLhyphen"/>ſineſs of his family at his Stewards hands,
+<pb n="72" facs="tcp:180530:43"/>it muſt be neceſſarily implied, that others ſhall give up their account to him, elſe how ſhall he be accountable to his Lord? If we muſt be called to an account for your proficiency, we may juſtly call you to an account about it. O that you would help us to give up our account, that we may do it with joy and not with grief, for that will be unprofitable for you. <note place="margin">1 Theſſ. 2.19.</note> A thriving people are (here) a Mi<g ref="char:EOLhyphen"/>niſters crown and joy, and will be much more ſo, when he is to give up his ac<g ref="char:EOLhyphen"/>count in the day of Jeſus Chriſt. What a comfort will it be when God calls a Mi<g ref="char:EOLhyphen"/>niſter to reckoning for his imployment, if he can bring with him many precious ſouls, which he hath by his Miniſtery converted, ſtrengthened, confirmed; and can ſay in the language of the great Shepheard of our fouls, <hi>Behold, here am I,</hi> 
+                     <note place="margin">Iſa. 8.18.</note> 
+                     <hi>and the children which the Lord hath given me.</hi> When God ſhall ask him as <hi>Eſau</hi> did <hi>Jacob,</hi> 
+                     <note place="margin">Gen. 33.5.</note> 
+                     <hi>Who are theſe with thee?</hi> he can chearfully anſwer as <hi>Jacob</hi> did, <hi>Theſe are the children that God hath gra<g ref="char:EOLhyphen"/>ciouſly given to thy ſervant</hi> in the exerciſe of his Miniſtery.</p>
+                  <p>On the other hand, what a grief will it be to a Miniſter when God ſhall call
+<pb n="65" facs="tcp:180530:43"/>him to an account of his employment, that in the bitterneſs of his ſpirit he muſt return ſuch an anſwer as this; Lord, I have preached in vain, I have labored in vain, I have ſtretched out my hands all my life long to a rebellious people: I have ſpoken to them the great things of thy Law, but they have accounted them a vain thing: I would have healed them and they would not be healed, I would have gathered them, and they would not be gathered: I have piped to them and they have not danced; I have mourned for them, but they have not wept. I have laid thy Law before them, but they have not trembled: I have preached the Goſpel to them, but they have not be<g ref="char:EOLhyphen"/>leived. Lord! thou knoweſt how I have daily bended my knees to thee in prayer for them, I have ſpent my ſtrength and time in preaching to them: I have watch<g ref="char:EOLhyphen"/>ed for them when they ſlept, and labored night and day to bring them to the know<g ref="char:EOLhyphen"/>ledge of Jeſus Chriſt: I would have in<g ref="char:EOLhyphen"/>ſtructed them; but they would not learn, but they have continued proud and pee<g ref="char:EOLhyphen"/>viſh, and ſtubborn, and ignorant, and re<g ref="char:EOLhyphen"/>fuſe inſtruction. Good friends, take heed and be well adviſed, ſuch an ac<g ref="char:EOLhyphen"/>count,
+<pb n="66" facs="tcp:180530:44"/>would neither be to a Miniſters comfort, nor to a peoples profit.</p>
+               </div>
+               <div n="11" type="section">
+                  <head>
+                     <hi>Sect.</hi> 11.</head>
+                  <p>The concurrent conſent of all Prote<g ref="char:EOLhyphen"/>ſtant Divines, <note place="margin">Synod. of Dort. ſeſ. 15.</note> not onely ſingly conſider<g ref="char:EOLhyphen"/>ed and diſperſed (which would be too tedious to recite) but as united into one body, in the moſt conſiderable Aſſembly that hath been of the Proteſtants ſince the Reformation. Where, though ſome thought it would be a difficult work to bring antient people to be publickly ca<g ref="char:EOLhyphen"/>techized, eſpecially in the firſt ſetting this unuſual work on foot, unleſs they would voluntarily ſubmit themſelves thereunto; yet they all agree in this, that Parents and Maſters ought to be conſtantly preſent at the publique Cate<g ref="char:EOLhyphen"/>chizing their Children and Families, that ſo they may the better take notice of their proficiency, and know how either to encourage or reprehend them accord<g ref="char:EOLhyphen"/>ingly, and be hereby the better inabled to teach them themſelves in private. And further, that they ought to ſubmit them<g ref="char:EOLhyphen"/>ſelves to trial; if not publique (as ſome noble perſons had done, to the great ad<g ref="char:EOLhyphen"/>vantage of the Church of God) yet that
+<pb n="67" facs="tcp:180530:44"/>they would be content to learn in pri<g ref="char:EOLhyphen"/>vate (which is all that we now preſs, and) which they all conſent, we may ex<g ref="char:EOLhyphen"/>act when they come to have their chil<g ref="char:EOLhyphen"/>dren baptized, or to be made partakers of the Lords Supper.</p>
+               </div>
+               <div n="12" type="section">
+                  <head>
+                     <hi>Sect.</hi> 12.</head>
+                  <p>It was the practice of the Miniſter of the Church of <hi>Empden,</hi> 
+                     <note place="margin">Ibid.</note> once a year to vi<g ref="char:EOLhyphen"/>ſit every houſe, &amp; to exhort Parents, Chil<g ref="char:EOLhyphen"/>dren and all the Houſhold to their Du<g ref="char:EOLhyphen"/>ties, and chiefly that they continued in the duty of catechiſing. St. <note place="margin">
+                        <hi>In Vit. Aug. c.</hi> 7.</note> 
+                     <hi>Auſtin</hi> was wont to teach publickly in the Church, and privately, in particular private houſes, as he could meet with occaſion to inſtruct his people. <hi>[Docebat ac prae<g ref="char:EOLhyphen"/>dicabat publice &amp; privatim, in domo, &amp; in eccleſia, verbum Dei.]</hi> 
+                     <note place="margin">Act. 2.46. &amp; 5.42. &amp; 20.20.</note> It's a frequent expreſſion of the Apoſtles that he taught them in the myſteries of the Goſpel, not onely publickly, but from houſe to houſe; he taught them not onely in the Temple, at their general meetings, but from houſe to houſe, in private too, as opportunity was offered him: Private, domeſtical, perſonal inſtruction is neceſſary and ex<g ref="char:EOLhyphen"/>ceeding uſeful, whilſt it is done in ſubor<g ref="char:EOLhyphen"/>dination and ſubſerviency, not in oppo<g ref="char:EOLhyphen"/>ſition
+<pb n="68" facs="tcp:180530:45"/>to the work of publick teach<g ref="char:EOLhyphen"/>ing. But by the way, thoſe words <hi>[from houſe to houſe]</hi> may bear another ſenſe. The Church of God at <hi>Jeruſalem,</hi> was now ſo great, and the members of it ſo many, <note place="margin">
+                        <hi>Beza</hi> in Act. 2.46. <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>.</note> that they could not meet in one place for the ſervice of God, and the participation of Ordinances: That Mo<g ref="char:EOLhyphen"/>ther Church ſent out (as it were) Colo<g ref="char:EOLhyphen"/>nies; they divided themſelves into more Congregations, which met at ſeveral places, houſes, and ſo the Apoſtles preach<g ref="char:EOLhyphen"/>ing from houſe to houſe, might be but his taking care of, and inſtructing theſe ſe<g ref="char:EOLhyphen"/>veral new planted Churches in the do<g ref="char:EOLhyphen"/>ctrine of the Goſpel. But I paſs that.</p>
+               </div>
+               <div n="13" type="section">
+                  <head>
+                     <hi>Sect.</hi> 13.</head>
+                  <p>How many have made ſad complaints againſt their former Miniſters that they were ignorant, and unable, or lazy, care<g ref="char:EOLhyphen"/>leſs and negligent in inſtructing them in the ways that tend to life? If now they may have help and means that way, by ſuch as beſeech them to accept of their help; if now, I ſay, they refuſe neglect, and contemn that motion, it will be more then ſuſpitious, that it was not out of conſcience and deſire to be better in<g ref="char:EOLhyphen"/>ſtructed
+<pb n="69" facs="tcp:180530:45"/>that they ſought their removal, but for the revenging of ſome old grudge, or for the obtaining of ſome baſe car<g ref="char:EOLhyphen"/>nal, ſordid, temporal advantage of their own. Where ſuch rotten principles ſet men on work it is no wonder that they remain as bad as ever. It is juſt with God to render that Miniſtery unſucceſ<g ref="char:EOLhyphen"/>ful to them, who never ſought it for the <hi>ſubduing,</hi> but for the <hi>gratifying</hi> of their luſts.</p>
+               </div>
+               <div n="14" type="section">
+                  <head>
+                     <hi>Sect.</hi> 14.</head>
+                  <p>The ſaving knowledge of Jeſus Chriſt will enable you to undervalue all theſe ſublunary things, and makes abundant recompence for the want of them. The former of theſe is clear from the Apoſtles judgement and practice, <note place="margin">1 Cor. 2.2.</note> who contented himſelf with the knowledge of Jeſus Chriſt as with the richeſt treaſure; yea, he <hi>counted all things but loſs and dung for the excellency of the knowledge of Jeſus Chriſt our Lord.</hi> 
+                     <note place="margin">Phil. 3.8.</note> The latter is as mani<g ref="char:EOLhyphen"/>feſt as the former, in this, that when others comfort themſelves in their corn, and wine, and oyl; when they glory in their Houſes, Lands, Friends, Revenews, Rents; he whoſe ſoul is enlightned from
+<pb n="70" facs="tcp:180530:46"/>above, can glory in the Lord, and in the knowledge of his Name; which over<g ref="char:EOLhyphen"/>weighs them all. When the King of <hi>Spains</hi> Herald (its a known ſtory) had proclaimed all his Maſters ſwelling titles, King of <hi>Spain,</hi> and <hi>Arragon,</hi> King of <hi>Naples</hi> and <hi>Jeruſalem, &amp;c.</hi> The King of <hi>France</hi> his Herald anſwers him, by pro<g ref="char:EOLhyphen"/>claiming his Maſter as often King of <hi>France,</hi> King of <hi>France;</hi> intimating that that one Kingdom of <hi>France,</hi> was worth all the Dominions of the proud <hi>Spani<g ref="char:EOLhyphen"/>ard.</hi> When carnal men have crackt of all their earthly Priviledges, preroga<g ref="char:EOLhyphen"/>tives and enjoyments, they all fall ſhort of this ineſtimable treaſure of <hi>knowing God,</hi> 
+                     <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>. <hi>Arri<g ref="char:EOLhyphen"/>an. Epict. l.</hi> 4. <hi>c.</hi> 9.</note> 
+                     <hi>and him whom he hath ſent, his Son Jeſus Chriſt.</hi> The Philoſopher could en<g ref="char:EOLhyphen"/>courage his Schollar againſt the vaunts of wicked men in their worldly enjoy<g ref="char:EOLhyphen"/>ments by bidding him put his Philoſophy in the ſcales againſt them all; if thou hadſt nothing (ſaith he) to lay againſt their enjoyments, thou art miſerable indeed, but if thou haſt the knowledge of Philo<g ref="char:EOLhyphen"/>ſophy, thou haſt that which is more worth then all their enjoyments: How much rather may we ſay ſo, of the ſaving knowledge of God in Chriſt; if thou haſt
+<pb n="71" facs="tcp:180530:46"/>that, thou haſt that to which all earthly things bear no proportion.</p>
+               </div>
+               <div n="15" type="section">
+                  <head>
+                     <hi>Sect.</hi> 15.</head>
+                  <p>It will be a leading example, and a great encouragement to thoſe under your charge to ſubmit themſelves to learn; when they ſee their Parents and Maſters not diſdain to be inſtructed. Inferiors live more by the <hi>Eye</hi> then by the <hi>Ear;</hi> they rather obſerve what you do your ſelves, then what you command them to do. If the examples which you ſet be<g ref="char:EOLhyphen"/>fore them be ſpeckled and ring ſtreaked. their practiſes will be ſuch too; it will little avail any of you, to command your families to be ſober, when they ſee you frequently reeling and drunken; to com<g ref="char:EOLhyphen"/>mand them not to ſwear, while they hear you daily ſwearing and blaſpheming; to command them to obſerve the Sab<g ref="char:EOLhyphen"/>bath, whilſt you prophane it; <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>. <hi>Xenep. de inſt. Cyr. in princ.</hi>
+                     </note> to be ca<g ref="char:EOLhyphen"/>techiſed, whilſt you your ſelves hate in<g ref="char:EOLhyphen"/>ſtruction. <hi>Lynus,</hi> yet a child, when he compared the ſtrictneſs or the education of the Perſian youth, with the drunken<g ref="char:EOLhyphen"/>neſs of the old Courtiers, could tell his Grandfather <hi>Aſtiages, That they com<g ref="char:EOLhyphen"/>manded the Youth one thing, but did the
+<pb n="72" facs="tcp:180530:47"/>quite contrary themſelves; We have ſevere Lectures of Sobriety read us, when as</hi> (ſaith he) <hi>your ſtammering tongues, and ſtumbling feet proclaim your Drunken<g ref="char:EOLhyphen"/>neſs.</hi> 
+                     <note place="margin">Judg: 12.5.</note> The beſt way to make them good who are under your charge is to give them good example: If there be any thing worſe then other in your behavior, they are apteſt to pick out that for their imitation; <note place="margin">Gen. 12. Gen. 20.</note> 
+                     <hi>Abraham</hi> was an eminent ſervant of God, both for his faith and obedience; the greateſt failure we finde in him was in his diſſembling (to ſay no worſe) when he denied <hi>Sarah</hi> to be his Wife. And yet we finde <hi>Iſaak,</hi> who was a good man, <note place="margin">Gen. 26.</note> culling out this ſin for his imitation, and ſinning after the ſimi<g ref="char:EOLhyphen"/>litude of <hi>Abrahams</hi> tranſgreſſion; ſo apt are we to follow the evil that is ſet before us. It concerns you much to take he<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d what examples you give ſeeing your children are ſo apt to write after the copies which you ſet them: when you your ſelves ingage in that which is good, and then ſay to your families as <hi>Gideon</hi> did to his Souldiers, <hi>as you ſee me do, ſo do yee,</hi> then there's ſome hope of an ef<g ref="char:EOLhyphen"/>fectual reformation. Inferiors ſuffer them<g ref="char:EOLhyphen"/>ſelves eaſily to be bound by thoſe laws,
+<pb facs="tcp:180530:47"/>which they ſee obſerved by thoſe that made them: thou ſhalt have them readily obedient to thy commands, when they ſee thee practizing what thou enjoyneſt them. It was the reproach of <hi>Appius,</hi> 
+                     <note place="margin">
+                        <hi>Appius, Lucretiae Regum, juris quod ipſe com<g ref="char:EOLhyphen"/>poſuerat oblitus.</hi> Flor. lib. 1. c. 24. <hi>In commune jubes, ſi quid cenſeſve tenendum, Primus ipſe ſubi.</hi> Claud. <hi>Prius diſce, qui doces.</hi> Lanct.</note> that he forgot the Law of his own making, and that he who had expelled <hi>Tarquin</hi> for a rape, himſelf committed one. <hi>Pompey</hi> was famous for giving good rules, but as infamous for breaking them firſt himſelf.</p>
+                  <p>When a Father or a Maſter of a Fa<g ref="char:EOLhyphen"/>mily doth truly fear God, <note place="margin">
+                        <hi>Suarum legum Au<g ref="char:EOLhyphen"/>thor &amp; Everſor.</hi> Tacitus. <hi>Vid. Muſ<g ref="char:EOLhyphen"/>cul. Pſa.</hi> 7.7.</note> he will both by <hi>his Precepts and Example</hi> endeavor to bring his whole houſhold to the know<g ref="char:EOLhyphen"/>ledge and obedience of God too: but if he be a wicked perſon himſelf (what<g ref="char:EOLhyphen"/>ſoever commands he may lay upon them) his corrupt practice will hazard and in<g ref="char:EOLhyphen"/>danger the ruine of them all. Mind that place in <hi>Joſhua</hi> well. <note place="margin">Joſh. 24.15.</note> 
+                     <hi>I and my houſe will ſerve the Lord;</hi> it is not I, without my houſe; a good man would willingly bring all, eſpecially thoſe of his Family, to hea<g ref="char:EOLhyphen"/>ven with him; nor is it my houſe with<g ref="char:EOLhyphen"/>out
+<pb n="74" facs="tcp:180530:48"/>me; I am contented that they ſhall know and ſerve him, but I will not. This is all one, as if one ſhould ſay, I am willing that my Family ſhould go to heaven, but for my ſelf, I am reſolved to go to hell: But it is I and my houſe; I will enjoyn them no more then I will do my ſelf: I ſhall walk be<g ref="char:EOLhyphen"/>fore them by mine own example, but I will not leave them to their own choice whether they will ſerve God or no. It's a pernitious liberty which ſuffers men to be either of no Religion, or of a falſe one. You muſt provoke them to this good work, by doing it before them, or elſe they will be apt to think, that it is onely a device to keep children in awe, but not a duty neceſſary to ſalvation.</p>
+                  <p>Thus have I according to the grace of God given me, <note place="margin">Conclu<g ref="char:EOLhyphen"/>ſion.</note> endeavored to perſwade you to lay the foundation, whereon the Fabrick of your ſalvation is to be raiſed. Other foundation can no man lay; let e<g ref="char:EOLhyphen"/>very man take heed how he builds there<g ref="char:EOLhyphen"/>uponi; fanyman build upon this foundati<g ref="char:EOLhyphen"/>on, <note place="margin">2 Cor. 3.10, 11, 12 &amp;c.</note> wood, hay, ſtubble, his work ſhall be burnt with fire, but if any man build gold, ſilver, precious ſtones, his work ſhal abide,
+<pb n="75" facs="tcp:180530:48"/>and he ſhall receive a reward. You have ſeen the ſad inconveniencies which at<g ref="char:EOLhyphen"/>tend the neglect of this work, and the great advantages that accrew to thoſe who exerciſe themſelves in it. Profit is a ſpur to Piety: <hi>Moſes</hi> his eying the re<g ref="char:EOLhyphen"/>compence of the reward, quickened him in his Duty. The Lord give you underſtanding in all things, that you may know where your intereſt and greateſt concernment lies! And now (Brethren) I beſeech you by the tender mercies of God, by the precious merits of Jeſus Chriſt, by all that is dear and precious to you, that you ſuffer this word of Exhortation to prevail with you, to the performance of your reſpective Du<g ref="char:EOLhyphen"/>ties! God will have much glory, and your poor Souls will one day find the comfort on't. And as for me, it will be an abun<g ref="char:EOLhyphen"/>dant recompence of this and all other pains which I have taken amongſt you, if I may find your hearts more and more inflamed after the ſaving knowledg of our bleſſed Saviour Jeſus Chriſt, as he is re<g ref="char:EOLhyphen"/>vealed in the Goſpel.</p>
+                  <p>Finally, what remains, <note place="margin">Act. 20.32.</note> but that I com<g ref="char:EOLhyphen"/>mend you to God, and to the word of his Grace, which is able to build you up,
+<pb n="76" facs="tcp:180530:49"/>and to give you an inheritance among them that are ſanctified. Humbly be<g ref="char:EOLhyphen"/>ſeeching <hi>the God of peace,</hi> 
+                     <note place="margin">Heb. 13.20.</note> 
+                     <hi>that brought again from the dead our Lord Jeſus Chriſt, that great Shepherd of the ſheep, through the blood of the everlaſting Covenant, that he would make you perfect in every good work to do his will, working in you that which is well pleaſing in his ſight, through Jeſus Christ, to whom be glory for ever and ever.</hi> Amen.</p>
+               </div>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="appendix">
+            <pb n="77" facs="tcp:180530:49"/>
+            <opener>
+               <salute>READER,</salute>
+            </opener>
+            <p>
+               <hi>THere remaining ſome ſpare room, and meeting with this ſhort Catechiſm, uſed hereto<g ref="char:EOLhyphen"/>fore, to the benefit of many Chriſtians, by that eminent and faith<g ref="char:EOLhyphen"/>ful ſervant of Chriſt, Mr.</hi> Robert Lilly <hi>late Miniſter of</hi> Campden, <hi>I thought fit to annex it here, as out of a deſire to promote thy ſpiritual good, ſo to teſti<g ref="char:EOLhyphen"/>fie that reverend reſpect which I bear to the memory of that worthy Perſon now with God.</hi>
+            </p>
+            <div type="catechism">
+               <head>Twelve Queſtions and Anſwers, fit to be learned and underſtood by all thoſe who deſire worthily to communicate at the Lords Table.</head>
+               <p>Queſt. 1.</p>
+               <p>
+                  <hi>WHat is the Ground of your com<g ref="char:EOLhyphen"/>ing to receive the Lords Supper?</hi>
+               </p>
+               <p>
+                  <hi>Anſw.</hi> Becauſe it is an Ordinance which Jeſus Chriſt hath appointed in his
+<pb n="78" facs="tcp:180530:50"/>Church, for the ſpiritual good of every true Member of it.</p>
+               <p>Q 2. <hi>What is that ſpiritual good Chriſt hath appointed it for?</hi>
+               </p>
+               <p>
+                  <hi>A.</hi> He hath appointed it, as for a ho<g ref="char:EOLhyphen"/>ly remembrance of himſelf, ſo for a ſpe<g ref="char:EOLhyphen"/>cial means to confirm the faith of every true Beleever in him.</p>
+               <p>Q. 3. <hi>What need you or any man be<g ref="char:EOLhyphen"/>lieve in Chriſt?</hi>
+               </p>
+               <p>
+                  <hi>A.</hi> Yes, I, and all men are ſinful both by Original and Actual ſin, and muſt die eternally, if the Lord Jeſus Chriſt do not ſave us, which he will not do unleſs we beleeve on him.</p>
+               <p>Q. 4. <hi>How can you conceive that the receiving of Bread and Wine, ſhould be a means to confirm Faith?</hi>
+               </p>
+               <p>
+                  <hi>A.</hi> Yes, Becauſe as they are a ſign of Chriſts Body and Blood, ſo they are a ſeal to confirm a ſpecial part of the Cove<g ref="char:EOLhyphen"/>nant between God and a Beleever, and to give him an intereſt in it.</p>
+               <p>Q. 5. <hi>What is the ſpecial part of the Covenant, which it both confirms and con<g ref="char:EOLhyphen"/>veys to a Beleever?</hi>
+               </p>
+               <p>
+                  <hi>A.</hi> That by Faith, as he ſhall have his ſin pardoned, and Gods favor recovered, which is ſigned and ſealed in Baptiſm;
+<pb n="79" facs="tcp:180530:50"/>ſo in feeding on him by Faith, he ſhall be nouriſhed and preſerved in that eſtate un<g ref="char:EOLhyphen"/>to Everlaſting life.</p>
+               <p>Q. 6. <hi>Hath every one that receives, this confirmed and conveyed to him?</hi>
+               </p>
+               <p>
+                  <hi>A.</hi> Yes, every one that hath Faith, if he come not unworthily, for ſo he may hinder his own ſpiritual good.</p>
+               <p>Q. 7. <hi>May a Beleever come unworthily?</hi>
+               </p>
+               <p>
+                  <hi>A.</hi> Yes, in ſome ſort, if he do not care<g ref="char:EOLhyphen"/>fully perform his Duty as he ſhould, both <hi>before</hi> he receive, <hi>in</hi> receiving, and <hi>after</hi> receiving, ſanctifying them all by prayer.</p>
+               <p>Q. 8. <hi>What is the Duty that a Chriſti<g ref="char:EOLhyphen"/>an muſt do before he receive?</hi>
+               </p>
+               <p>A. He muſt duly examine himſelf, whe<g ref="char:EOLhyphen"/>ther he have Knowledge, Faith, Repen<g ref="char:EOLhyphen"/>tance, Obedience, Love, and carefully renew them all ſo oft as he cometh to re<g ref="char:EOLhyphen"/>ceive.</p>
+               <p>Q. 9. <hi>How may he know by his exami<g ref="char:EOLhyphen"/>nation whether he hath theſe Graces yea or no?</hi>
+               </p>
+               <p>A. By this Rule, every one of them, if he can truly ſay, that his <hi>Performance</hi> is <hi>ſome,</hi> his <hi>Endeavors</hi> are <hi>more,</hi> his <hi>De<g ref="char:EOLhyphen"/>ſi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e</hi> is <hi>infinite.</hi>
+               </p>
+               <p>Q. 10. <hi>How is a Beleever to renew theſe Graces?</hi>
+               </p>
+               <pb n="80" facs="tcp:180530:51"/>
+               <p>A. In laboring to ſee the imperfections of them, in ſeeing them to bewail them, confeſs them, crave pardon for them with a holy reſolution to redreſs them.</p>
+               <p>Q. 11. <hi>What is the Duty which a Be<g ref="char:EOLhyphen"/>leever muſt do in receiving?</hi>
+               </p>
+               <p>A. In beholding the Bread and Wine, thankfully to diſcern the Lords Body, and by faith to receive them as the ſeal of God; that by his faith he ſhall be pre<g ref="char:EOLhyphen"/>ſerved in Gods love, and that they as in<g ref="char:EOLhyphen"/>ſtruments of God exhibit it to him.</p>
+               <p>Q 12. <hi>What is the Duty that a Beleever muſt do after receiving?</hi>
+               </p>
+               <p>A. As to remember the Covenant made in receiving, and continually to make uſe of it; ſo to remember himſelf, whether he have received that ſpiritual comfort to be had in it; if he have, to be thankful and make uſe of it; if not, to ſearch out the cauſe and be humble for it.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:180530:51"/>
+            <opener>
+               <salute>READER,</salute>
+            </opener>
+            <p>
+               <hi>BE pleaſed to correct theſe Errata's ere you read the Book; becauſe many of them marr the ſenſe; the literal ſlips, eſpe<g ref="char:EOLhyphen"/>cially in the Margin, are leſs conſiderable, you may mend them as you read.</hi>
+            </p>
+            <p>Page 12. Line 3. for <hi>would,</hi> r. <hi>worlds,</hi> line 24, 25. the words are miſplaced in the beginning of each line, in the 24. for <hi>thorough</hi> r. <hi>in ſome meaſure,</hi> in the 25. for <hi>in ſome meaſure,</hi> r. <hi>thorough.</hi> p. 14. l. 17. r. <hi>in a wrack.</hi> p. 16. l. 19. r. <hi>they will find.</hi> p. 17. l. 5. for <hi>Ba<g ref="char:EOLhyphen"/>leans,</hi> r. <hi>Baleares,</hi> p. 21. l. 11. for <hi>Estones,</hi> r. <hi>Eſtones,</hi> l. 25. for <hi>vari,</hi> r. <hi>vare,</hi> p. 33. l. 22. for <hi>what,</hi> r. <hi>which.</hi> p. 53. l. 6. for <hi>be,</hi> r. <hi>he,</hi> l. 7. for <hi>he,</hi> r. <hi>be,</hi> p. 71. r. <hi>Greg. Nazian<g ref="char:EOLhyphen"/>zene.</hi> l. 22. for <hi>Eynus,</hi> r. <hi>Cyrus.</hi>
+            </p>
+            <pb facs="tcp:180530:52" rendition="simple:additions"/>
+            <pb facs="tcp:180530:52"/>
+            <pb facs="tcp:180530:53"/>
+            <pb facs="tcp:180530:53"/>
+            <pb facs="tcp:180530:54"/>
+            <pb facs="tcp:180530:54" rendition="simple:additions"/>
+         </div>
+      </back>
+   </text>
+</TEI>
